@@ -1,0 +1,745 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>ENGINE (DIAGNOSTICS)(H4SO) &gt; General Scan Tool &gt; OPERATION</title>
+<link rel="stylesheet" href="../subaru.css" type="text/css">
+<script language="JavaScript" type="text/JavaScript" src="../honbun.js"></script>
+</head>
+<body class="si-body">
+<p class="toptitle">ENGINE (DIAGNOSTICS)(H4SO) &gt; General Scan Tool</p>
+<p class="title-si"><a name="S008391a16"></a>OPERATION</p>
+<div class="si-body">
+<p class="title-ssi"><a name="S008391a1601"></a>
+<span class="ssi-num">1. </span>HOW TO USE GENERAL SCAN TOOL</p>
+<div class="step1">
+<p class="step1-ptext"><span class="step1-num">1. </span>Prepare a scan tool (general scan tool) required by SAE J1978.</p>
+</div>
+<div class="step1">
+<p class="step1-ptext"><span class="step1-num">2. </span>Connect the general scan tool to data link connector located in the lower portion of the instrument panel (on the driver&rsquo;s side).</p>
+<div class="graphic-block">
+<p class="graphic"><img src="../grph_ent/en-03650.png">
+</p></div>
+<div class="calltable-block">
+<div class="calltable">
+<table  class="calltable" cellspacing="5" cellpadding="0" frame="void" rules="0">
+<tbody class="tbody">
+<tr class="table-row">
+<td class="tbody" align="right" valign="top">
+<p class="entry-ptext">(A)</p></td>
+<td class="tbody" align="left" valign="top">
+<p class="entry-ptext">Data link connector</p></td></tr></tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="step1">
+<p class="step1-ptext"><span class="step1-num">3. </span>Using the general scan tool, call up DTC and freeze frame data.</p>
+<p class="step1-ptext-para"><span class="step1-num"></span>General scan tool functions consist of:</p>
+<div class="step2">
+<p class="step2-ptext"><span class="step2-num">(1) </span>MODE $01: Current powertrain diagnostic data</p>
+</div>
+<div class="step2">
+<p class="step2-ptext"><span class="step2-num">(2) </span>MODE $02: Powertrain freeze frame data</p>
+</div>
+<div class="step2">
+<p class="step2-ptext"><span class="step2-num">(3) </span>MODE $03: Emission-related powertrain DTC</p>
+</div>
+<div class="step2">
+<p class="step2-ptext"><span class="step2-num">(4) </span>MODE $04: Clear/Reset emission-related diagnostic information</p>
+</div>
+</div>
+<p class="ssi-ptext">Read out the data according to repair procedures. (For detailed operation procedure, refer to the general scan tool instruction manual.)</p>
+<p class="note-label">NOTE:</p>
+<div class="note">
+<p class="note-ptext">For details concerning DTC, refer to &ldquo;List of Diagnostic Trouble Code (DTC)&rdquo;. <a href="Javascript:go('S008525');" title="ENGINE (DIAGNOSTICS)(H4SO) > List of Diagnostic Trouble Code (DTC)"><img class="xreficon" src="../image/btn_link.gif" border="0" align="absmiddle"></a></p>
+</div>
+<p class="title-ssi"><a name="S008391a1602"></a>
+<span class="ssi-num">2. </span>MODE $01 (CURRENT POWERTRAIN DIAGNOSTIC DATA)</p>
+<p class="ssi-ptext">Refer to data denoting the current operating condition of analog input/output, digital input/output or the powertrain system.</p>
+<p class="ssi-ptext-para">A list of the support data and PID (Parameter Identification) codes are shown in the following table.</p>
+<div class="table">
+<table  cellspacing="2" cellpadding="0" frame="box" rules="all">
+<thead class="thead">
+<tr class="table-row">
+<td class="thead" align="center" valign="center">
+<p class="entry-ptext">PID</p></td>
+<td class="thead" align="left" valign="center">
+<p class="entry-ptext">Data</p></td>
+<td class="thead" align="center" valign="center">
+<p class="entry-ptext">Unit of measure</p></td></tr></thead>
+<tbody class="tbody">
+<tr class="table-row">
+<td class="tbody" align="center" valign="center">
+<p class="entry-ptext">01</p></td>
+<td class="tbody" align="left" valign="center">
+<p class="entry-ptext">Number of emission-related powertrain DTC and malfunction indicator light status</p></td>
+<td class="tbody" align="center" valign="center">
+<p class="entry-ptext">ON/OFF</p></td></tr>
+<tr class="table-row">
+<td class="tbody" align="center" valign="center">
+<p class="entry-ptext">03</p></td>
+<td class="tbody" align="left" valign="center">
+<p class="entry-ptext">Fuel system control status</p></td>
+<td class="tbody" align="center" valign="center">
+<p class="entry-ptext"> &mdash; </p></td></tr>
+<tr class="table-row">
+<td class="tbody" align="center" valign="center">
+<p class="entry-ptext">04</p></td>
+<td class="tbody" align="left" valign="center">
+<p class="entry-ptext">Calculated engine load value</p></td>
+<td class="tbody" align="center" valign="center">
+<p class="entry-ptext">%</p></td></tr>
+<tr class="table-row">
+<td class="tbody" align="center" valign="center">
+<p class="entry-ptext">05</p></td>
+<td class="tbody" align="left" valign="center">
+<p class="entry-ptext">Engine coolant temperature</p></td>
+<td class="tbody" align="center" valign="center">
+<p class="entry-ptext"><span class='symbol'>&#x00B0;</span>C</p></td></tr>
+<tr class="table-row">
+<td class="tbody" align="center" valign="center">
+<p class="entry-ptext">06</p></td>
+<td class="tbody" align="left" valign="center">
+<p class="entry-ptext">Short term fuel trim</p></td>
+<td class="tbody" align="center" valign="center">
+<p class="entry-ptext">%</p></td></tr>
+<tr class="table-row">
+<td class="tbody" align="center" valign="center">
+<p class="entry-ptext">07</p></td>
+<td class="tbody" align="left" valign="center">
+<p class="entry-ptext">Long term fuel trim</p></td>
+<td class="tbody" align="center" valign="center">
+<p class="entry-ptext">%</p></td></tr>
+<tr class="table-row">
+<td class="tbody" align="center" valign="center">
+<p class="entry-ptext">0B</p></td>
+<td class="tbody" align="left" valign="center">
+<p class="entry-ptext">Intake manifold absolute pressure</p></td>
+<td class="tbody" align="center" valign="center">
+<p class="entry-ptext">kPa</p></td></tr>
+<tr class="table-row">
+<td class="tbody" align="center" valign="center">
+<p class="entry-ptext">0C</p></td>
+<td class="tbody" align="left" valign="center">
+<p class="entry-ptext">Engine speed</p></td>
+<td class="tbody" align="center" valign="center">
+<p class="entry-ptext">rpm</p></td></tr>
+<tr class="table-row">
+<td class="tbody" align="center" valign="center">
+<p class="entry-ptext">0D</p></td>
+<td class="tbody" align="left" valign="center">
+<p class="entry-ptext">Vehicle speed</p></td>
+<td class="tbody" align="center" valign="center">
+<p class="entry-ptext">km/h</p></td></tr>
+<tr class="table-row">
+<td class="tbody" align="center" valign="center">
+<p class="entry-ptext">0E</p></td>
+<td class="tbody" align="left" valign="center">
+<p class="entry-ptext">Ignition timing advance</p></td>
+<td class="tbody" align="center" valign="center">
+<p class="entry-ptext"><span class='symbol'>&#x00B0;</span></p></td></tr>
+<tr class="table-row">
+<td class="tbody" align="center">
+<p class="entry-ptext">$1F</p></td>
+<td class="tbody">
+<p class="entry-ptext">Elapsed time after engine start</p></td>
+<td class="tbody" align="center">
+<p class="entry-ptext">sec</p></td></tr>
+<tr class="table-row">
+<td class="tbody" align="center" valign="center">
+<p class="entry-ptext">10</p></td>
+<td class="tbody" align="left" valign="center">
+<p class="entry-ptext">Air flow rate of manifold absolute pressure sensor</p></td>
+<td class="tbody" align="center" valign="center">
+<p class="entry-ptext">g/sec</p></td></tr>
+<tr class="table-row">
+<td class="tbody" align="center" valign="center">
+<p class="entry-ptext">11</p></td>
+<td class="tbody" align="left" valign="center">
+<p class="entry-ptext">Throttle valve opening angle</p></td>
+<td class="tbody" align="center" valign="center">
+<p class="entry-ptext">%</p></td></tr>
+<tr class="table-row">
+<td class="tbody" align="center" valign="center">
+<p class="entry-ptext">13</p></td>
+<td class="tbody" align="left" valign="center">
+<p class="entry-ptext">Check whether oxygen sensor is installed.</p></td>
+<td class="tbody" align="center" valign="center">
+<p class="entry-ptext"> &mdash; </p></td></tr>
+<tr class="table-row">
+<td class="tbody" align="center" valign="center">
+<p class="entry-ptext">14</p></td>
+<td class="tbody" align="left" valign="center">
+<p class="entry-ptext">Oxygen sensor output voltage and short term fuel trim &mdash; bank 1 associated with oxygen sensor</p></td>
+<td class="tbody" align="center" valign="center">
+<p class="entry-ptext">V and %</p></td></tr>
+<tr class="table-row">
+<td class="tbody" align="center" valign="center">
+<p class="entry-ptext">15</p></td>
+<td class="tbody" align="left" valign="center">
+<p class="entry-ptext">Oxygen sensor output voltage and short term fuel trim &mdash; bank 2 associated with oxygen sensor</p></td>
+<td class="tbody" align="center" valign="center">
+<p class="entry-ptext">V and %</p></td></tr>
+<tr class="table-row">
+<td class="tbody" align="center" valign="center">
+<p class="entry-ptext">1C</p></td>
+<td class="tbody" align="left" valign="center">
+<p class="entry-ptext">On-board diagnostic system</p></td>
+<td class="tbody" align="center" valign="center">
+<p class="entry-ptext"> &mdash; </p></td></tr>
+<tr class="table-row">
+<td class="tbody" align="center">
+<p class="entry-ptext">$24</p></td>
+<td class="tbody">
+<p class="entry-ptext">A/F sensor (&lambda; and voltage) (Bank 1)</p></td>
+<td class="tbody" align="center">
+<p class="entry-ptext">&mdash; and V</p></td></tr>
+<tr class="table-row">
+<td class="tbody" align="center">
+<p class="entry-ptext">$2C</p></td>
+<td class="tbody">
+<p class="entry-ptext">Target EGR</p></td>
+<td class="tbody" align="center">
+<p class="entry-ptext">%</p></td></tr>
+<tr class="table-row">
+<td class="tbody" align="center">
+<p class="entry-ptext">$2D</p></td>
+<td class="tbody">
+<p class="entry-ptext">EGR deviation</p></td>
+<td class="tbody" align="center">
+<p class="entry-ptext">%</p></td></tr>
+<tr class="table-row">
+<td class="tbody" align="center">
+<p class="entry-ptext">$2E</p></td>
+<td class="tbody">
+<p class="entry-ptext">Evaporative purge</p></td>
+<td class="tbody" align="center">
+<p class="entry-ptext">%</p></td></tr>
+<tr class="table-row">
+<td class="tbody" align="center">
+<p class="entry-ptext">$2F</p></td>
+<td class="tbody">
+<p class="entry-ptext">Fuel Level</p></td>
+<td class="tbody" align="center">
+<p class="entry-ptext">%</p></td></tr>
+<tr class="table-row">
+<td class="tbody" align="center">
+<p class="entry-ptext">$30</p></td>
+<td class="tbody">
+<p class="entry-ptext">Warm-up frequency after DTC clear </p></td>
+<td class="tbody" align="center">
+<p class="entry-ptext"> &mdash; </p></td></tr>
+<tr class="table-row">
+<td class="tbody" align="center">
+<p class="entry-ptext">$31</p></td>
+<td class="tbody">
+<p class="entry-ptext">Driving distance after DTC clear</p></td>
+<td class="tbody" align="center">
+<p class="entry-ptext">km</p></td></tr>
+<tr class="table-row">
+<td class="tbody" align="center">
+<p class="entry-ptext">$33</p></td>
+<td class="tbody">
+<p class="entry-ptext">Atmosphere pressure</p></td>
+<td class="tbody" align="center">
+<p class="entry-ptext">mmHg</p></td></tr>
+<tr class="table-row">
+<td class="tbody" align="center">
+<p class="entry-ptext">$34</p></td>
+<td class="tbody">
+<p class="entry-ptext">A/F sensor (&lambda; and current) (Bank 1)</p></td>
+<td class="tbody" align="center">
+<p class="entry-ptext">&mdash; and mA</p></td></tr>
+<tr class="table-row">
+<td class="tbody" align="center">
+<p class="entry-ptext">$41</p></td>
+<td class="tbody">
+<p class="entry-ptext">Diagnosis monitoring per driving cycle</p></td>
+<td class="tbody" align="center">
+<p class="entry-ptext"> &mdash; </p></td></tr>
+<tr class="table-row">
+<td class="tbody" align="center">
+<p class="entry-ptext">$42</p></td>
+<td class="tbody">
+<p class="entry-ptext">ECM power supply voltage</p></td>
+<td class="tbody" align="center">
+<p class="entry-ptext">V</p></td></tr>
+<tr class="table-row">
+<td class="tbody" align="center">
+<p class="entry-ptext">$43</p></td>
+<td class="tbody">
+<p class="entry-ptext">Absolute load</p></td>
+<td class="tbody" align="center">
+<p class="entry-ptext">%</p></td></tr>
+<tr class="table-row">
+<td class="tbody" align="center">
+<p class="entry-ptext">$44</p></td>
+<td class="tbody">
+<p class="entry-ptext">A/F target lambda</p></td>
+<td class="tbody" align="center">
+<p class="entry-ptext"> &mdash; </p></td></tr>
+<tr class="table-row">
+<td class="tbody" align="center">
+<p class="entry-ptext">$45</p></td>
+<td class="tbody">
+<p class="entry-ptext">Relative throttle opening angle</p></td>
+<td class="tbody" align="center">
+<p class="entry-ptext">%</p></td></tr>
+<tr class="table-row">
+<td class="tbody" align="center">
+<p class="entry-ptext">$46</p></td>
+<td class="tbody">
+<p class="entry-ptext">Ambient temperature</p></td>
+<td class="tbody" align="center">
+<p class="entry-ptext"><span class='symbol'>&#x00B0;</span>C</p></td></tr>
+<tr class="table-row">
+<td class="tbody" align="center">
+<p class="entry-ptext">$47</p></td>
+<td class="tbody">
+<p class="entry-ptext">Absolute throttle opening angle 2</p></td>
+<td class="tbody" align="center">
+<p class="entry-ptext">%</p></td></tr>
+<tr class="table-row">
+<td class="tbody" align="center">
+<p class="entry-ptext">$49</p></td>
+<td class="tbody">
+<p class="entry-ptext">Absolute accelerator opening angle 1</p></td>
+<td class="tbody" align="center">
+<p class="entry-ptext">%</p></td></tr>
+<tr class="table-row">
+<td class="tbody" align="center">
+<p class="entry-ptext">$4A</p></td>
+<td class="tbody">
+<p class="entry-ptext">Absolute accelerator opening angle 2</p></td>
+<td class="tbody" align="center">
+<p class="entry-ptext">%</p></td></tr>
+<tr class="table-row">
+<td class="tbody" align="center">
+<p class="entry-ptext">$4C</p></td>
+<td class="tbody">
+<p class="entry-ptext">Target throttle opening angle</p></td>
+<td class="tbody" align="center">
+<p class="entry-ptext">%</p></td></tr>
+<tr class="table-row">
+<td class="tbody" align="center">
+<p class="entry-ptext">$4D</p></td>
+<td class="tbody">
+<p class="entry-ptext">Engine operating time during MIL illumination</p></td>
+<td class="tbody" align="center">
+<p class="entry-ptext">min</p></td></tr>
+<tr class="table-row">
+<td class="tbody" align="center">
+<p class="entry-ptext">$4E</p></td>
+<td class="tbody">
+<p class="entry-ptext">Elapsed time after DTC clear</p></td>
+<td class="tbody" align="center">
+<p class="entry-ptext">min</p></td></tr>
+<tr class="table-row">
+<td class="tbody" align="center">
+<p class="entry-ptext">$51</p></td>
+<td class="tbody">
+<p class="entry-ptext">Fuel used</p></td>
+<td class="tbody" align="center">
+<p class="entry-ptext"> &mdash; </p></td></tr>
+<tr class="table-row">
+<td class="tbody" align="center">
+<p class="entry-ptext">$5A</p></td>
+<td class="tbody">
+<p class="entry-ptext">Relative throttle opening angle</p></td>
+<td class="tbody" align="center">
+<p class="entry-ptext">%</p></td></tr></tbody>
+</table>
+</div>
+<p class="note-label">NOTE:</p>
+<div class="note">
+<p class="note-ptext">Refer to general scan tool manufacturer&rsquo;s instruction manual to access current powertrain diagnostic data (MODE $01).</p>
+</div>
+<p class="title-ssi"><a name="S008391a1603"></a>
+<span class="ssi-num">3. </span>MODE $02 (POWERTRAIN FREEZE FRAME DATA)</p>
+<p class="ssi-ptext">Refer to data denoting the operating condition when trouble is detected by on-board diagnosis system.</p>
+<p class="ssi-ptext-para">A list of the support data and PID (Parameter Identification) codes are shown in the following table.</p>
+<div class="table">
+<table  cellspacing="2" cellpadding="0" frame="box" rules="all">
+<thead class="thead">
+<tr class="table-row">
+<td class="thead" align="center" valign="center">
+<p class="entry-ptext">PID</p></td>
+<td class="thead" align="left" valign="center">
+<p class="entry-ptext">Data</p></td>
+<td class="thead" align="center" valign="center">
+<p class="entry-ptext">Unit of measure</p></td></tr></thead>
+<tbody class="tbody">
+<tr class="table-row">
+<td class="tbody" align="center" valign="center">
+<p class="entry-ptext">$02</p></td>
+<td class="tbody" align="left" valign="center">
+<p class="entry-ptext">DTC that caused CARB required freeze frame data storage</p></td>
+<td class="tbody" align="center" valign="center">
+<p class="entry-ptext"> &mdash; </p></td></tr>
+<tr class="table-row">
+<td class="tbody" align="center" valign="center">
+<p class="entry-ptext">$03</p></td>
+<td class="tbody" align="left" valign="center">
+<p class="entry-ptext">Fuel system control status</p></td>
+<td class="tbody" align="center" valign="center">
+<p class="entry-ptext"> &mdash; </p></td></tr>
+<tr class="table-row">
+<td class="tbody" align="center" valign="center">
+<p class="entry-ptext">$04</p></td>
+<td class="tbody" align="left" valign="center">
+<p class="entry-ptext">Calculated engine load value</p></td>
+<td class="tbody" align="center" valign="center">
+<p class="entry-ptext">%</p></td></tr>
+<tr class="table-row">
+<td class="tbody" align="center" valign="center">
+<p class="entry-ptext">$05</p></td>
+<td class="tbody" align="left" valign="center">
+<p class="entry-ptext">Engine coolant temperature</p></td>
+<td class="tbody" align="center" valign="center">
+<p class="entry-ptext"><span class='symbol'>&#x00B0;</span>C</p></td></tr>
+<tr class="table-row">
+<td class="tbody" align="center" valign="center">
+<p class="entry-ptext">$06</p></td>
+<td class="tbody" align="left" valign="center">
+<p class="entry-ptext">Short term fuel trim</p></td>
+<td class="tbody" align="center" valign="center">
+<p class="entry-ptext">%</p></td></tr>
+<tr class="table-row">
+<td class="tbody" align="center" valign="center">
+<p class="entry-ptext">$07</p></td>
+<td class="tbody" align="left" valign="center">
+<p class="entry-ptext">Long term fuel trim</p></td>
+<td class="tbody" align="center" valign="center">
+<p class="entry-ptext">%</p></td></tr>
+<tr class="table-row">
+<td class="tbody" align="center" valign="center">
+<p class="entry-ptext">$0B</p></td>
+<td class="tbody" align="left" valign="center">
+<p class="entry-ptext">Intake manifold absolute pressure</p></td>
+<td class="tbody" align="center" valign="center">
+<p class="entry-ptext">kPa</p></td></tr>
+<tr class="table-row">
+<td class="tbody" align="center" valign="center">
+<p class="entry-ptext">$0C</p></td>
+<td class="tbody" align="left" valign="center">
+<p class="entry-ptext">Engine speed</p></td>
+<td class="tbody" align="center" valign="center">
+<p class="entry-ptext">rpm</p></td></tr>
+<tr class="table-row">
+<td class="tbody" align="center" valign="center">
+<p class="entry-ptext">$0D</p></td>
+<td class="tbody" align="left" valign="center">
+<p class="entry-ptext">Vehicle speed</p></td>
+<td class="tbody" align="center" valign="center">
+<p class="entry-ptext">km/h</p></td></tr>
+<tr class="table-row">
+<td class="tbody" align="center">
+<p class="entry-ptext">$0E</p></td>
+<td class="tbody">
+<p class="entry-ptext">Cylinder #1 ignition timing</p></td>
+<td class="tbody" align="center">
+<p class="entry-ptext"><span class='symbol'>&#x00B0;</span>CA</p></td></tr>
+<tr class="table-row">
+<td class="tbody" align="center">
+<p class="entry-ptext">$0F</p></td>
+<td class="tbody">
+<p class="entry-ptext">Intake air temperature</p></td>
+<td class="tbody" align="center">
+<p class="entry-ptext"><span class='symbol'>&#x00B0;</span>C</p></td></tr>
+<tr class="table-row">
+<td class="tbody" align="center">
+<p class="entry-ptext">$10</p></td>
+<td class="tbody">
+<p class="entry-ptext">Airflow amount</p></td>
+<td class="tbody" align="center">
+<p class="entry-ptext">g/s</p></td></tr>
+<tr class="table-row">
+<td class="tbody" align="center">
+<p class="entry-ptext">$11</p></td>
+<td class="tbody">
+<p class="entry-ptext">Absolute throttle opening angle</p></td>
+<td class="tbody" align="center">
+<p class="entry-ptext">%</p></td></tr>
+<tr class="table-row">
+<td class="tbody" align="center">
+<p class="entry-ptext">$13</p></td>
+<td class="tbody">
+<p class="entry-ptext">Existence of air/fuel ratio sensor</p></td>
+<td class="tbody" align="center">
+<p class="entry-ptext"> &mdash; </p></td></tr>
+<tr class="table-row">
+<td class="tbody" align="center">
+<p class="entry-ptext">$15</p></td>
+<td class="tbody">
+<p class="entry-ptext">Oxygen sensor output voltage and short term fuel trim (Bank 1)</p></td>
+<td class="tbody" align="center">
+<p class="entry-ptext">V</p></td></tr>
+<tr class="table-row">
+<td class="tbody" align="center">
+<p class="entry-ptext">$1C</p></td>
+<td class="tbody">
+<p class="entry-ptext">Supporting OBD</p></td>
+<td class="tbody" align="center">
+<p class="entry-ptext"> &mdash; </p></td></tr>
+<tr class="table-row">
+<td class="tbody" align="center">
+<p class="entry-ptext">$1F</p></td>
+<td class="tbody">
+<p class="entry-ptext">Elapsed time after engine start</p></td>
+<td class="tbody" align="center">
+<p class="entry-ptext">sec</p></td></tr>
+<tr class="table-row">
+<td class="tbody" align="center">
+<p class="entry-ptext">$2C</p></td>
+<td class="tbody">
+<p class="entry-ptext">Target EGR</p></td>
+<td class="tbody" align="center">
+<p class="entry-ptext">%</p></td></tr>
+<tr class="table-row">
+<td class="tbody" align="center">
+<p class="entry-ptext">$2D</p></td>
+<td class="tbody">
+<p class="entry-ptext">EGR deviation</p></td>
+<td class="tbody" align="center">
+<p class="entry-ptext">%</p></td></tr>
+<tr class="table-row">
+<td class="tbody" align="center">
+<p class="entry-ptext">$2E</p></td>
+<td class="tbody">
+<p class="entry-ptext">Evaporative purge</p></td>
+<td class="tbody" align="center">
+<p class="entry-ptext">%</p></td></tr>
+<tr class="table-row">
+<td class="tbody" align="center">
+<p class="entry-ptext">$2F</p></td>
+<td class="tbody">
+<p class="entry-ptext">Fuel Level</p></td>
+<td class="tbody" align="center">
+<p class="entry-ptext">%</p></td></tr>
+<tr class="table-row">
+<td class="tbody" align="center">
+<p class="entry-ptext">$33</p></td>
+<td class="tbody">
+<p class="entry-ptext">Atmosphere pressure</p></td>
+<td class="tbody" align="center">
+<p class="entry-ptext">mmHg</p></td></tr>
+<tr class="table-row">
+<td class="tbody" align="center">
+<p class="entry-ptext">$42</p></td>
+<td class="tbody">
+<p class="entry-ptext">ECM power supply voltage</p></td>
+<td class="tbody" align="center">
+<p class="entry-ptext">V</p></td></tr>
+<tr class="table-row">
+<td class="tbody" align="center">
+<p class="entry-ptext">$43</p></td>
+<td class="tbody">
+<p class="entry-ptext">Absolute load</p></td>
+<td class="tbody" align="center">
+<p class="entry-ptext">%</p></td></tr>
+<tr class="table-row">
+<td class="tbody" align="center">
+<p class="entry-ptext">$44</p></td>
+<td class="tbody">
+<p class="entry-ptext">A/F target lambda</p></td>
+<td class="tbody" align="center">
+<p class="entry-ptext"> &mdash; </p></td></tr>
+<tr class="table-row">
+<td class="tbody" align="center">
+<p class="entry-ptext">$45</p></td>
+<td class="tbody">
+<p class="entry-ptext">Relative throttle opening angle</p></td>
+<td class="tbody" align="center">
+<p class="entry-ptext">%</p></td></tr>
+<tr class="table-row">
+<td class="tbody" align="center">
+<p class="entry-ptext">$46</p></td>
+<td class="tbody">
+<p class="entry-ptext">Ambient temperature</p></td>
+<td class="tbody" align="center">
+<p class="entry-ptext"><span class='symbol'>&#x00B0;</span>C</p></td></tr>
+<tr class="table-row">
+<td class="tbody" align="center">
+<p class="entry-ptext">$47</p></td>
+<td class="tbody">
+<p class="entry-ptext">Absolute throttle opening angle 2</p></td>
+<td class="tbody" align="center">
+<p class="entry-ptext">%</p></td></tr>
+<tr class="table-row">
+<td class="tbody" align="center">
+<p class="entry-ptext">$49</p></td>
+<td class="tbody">
+<p class="entry-ptext">Absolute accelerator opening angle 1</p></td>
+<td class="tbody" align="center">
+<p class="entry-ptext">%</p></td></tr></tbody>
+</table>
+</div>
+<p class="note-label">NOTE:</p>
+<div class="note">
+<p class="note-ptext">Refer to general scan tool manufacturer&rsquo;s operation manual to access freeze frame data (MODE $02).</p>
+</div>
+<p class="title-ssi"><a name="S008391a1604"></a>
+<span class="ssi-num">4. </span>MODE $03 (EMISSION-RELATED POWERTRAIN DTC)</p>
+<p class="ssi-ptext">Refer to &ldquo;Read Diagnostic Trouble Code (DTC)&rdquo; for information about data denoting emission-related powertrain DTC. <a href="Javascript:go('S008508');" title="ENGINE (DIAGNOSTICS)(H4SO) > Read Diagnostic Trouble Code (DTC)"><img class="xreficon" src="../image/btn_link.gif" border="0" align="absmiddle"></a></p>
+<p class="title-ssi"><a name="S008391a1605"></a>
+<span class="ssi-num">5. </span>MODE $04 (CLEAR/RESET EMISSION-RELATED DIAGNOSTIC INFORMATION)</p>
+<p class="ssi-ptext">Refer to the mode used to clear or reset emission-related diagnostic information (general scan tool trouble diagnostic information).</p>
+<p class="note-label">NOTE:</p>
+<div class="note">
+<p class="note-ptext">Refer to general scan tool manufacturer&rsquo;s operation manual to clear or reset emission-related diagnostic information (MODE $04).</p>
+</div>
+<p class="title-ssi"><a name="S008391a1606"></a>
+<span class="ssi-num">6. </span>MODE $06</p>
+<p class="ssi-ptext">Refer to test value of troubleshooting and data of test limit indicated on the support data bit sequence table. A list of the support data is shown in the following table.</p>
+<div class="table">
+<table  cellspacing="2" cellpadding="0" frame="box" rules="all">
+<thead class="thead">
+<tr class="table-row">
+<td class="thead" align="center" valign="center">
+<p class="entry-ptext">OBDMID</p></td>
+<td class="thead" align="center" valign="center">
+<p class="entry-ptext">TID</p></td>
+<td class="thead" align="center" valign="center">
+<p class="entry-ptext">SID</p></td>
+<td class="thead" align="center" valign="center">
+<p class="entry-ptext">Diagnostic item</p></td></tr></thead>
+<tbody class="tbody">
+<tr class="table-row">
+<td class="tbody" rowspan="6" align="center" valign="center">
+<p class="entry-ptext">$01</p></td>
+<td class="tbody" align="center" valign="center">
+<p class="entry-ptext">$81</p></td>
+<td class="tbody" align="center">
+<p class="entry-ptext">$0A</p></td>
+<td class="tbody" rowspan="3" align="left" valign="center">
+<p class="entry-ptext">A/F sensor continuity abnormal (B1S1)</p></td></tr>
+<tr class="table-row">
+<td class="tbody" align="center" valign="center">
+<p class="entry-ptext">$82</p></td>
+<td class="tbody" align="center">
+<p class="entry-ptext">$8D</p></td></tr>
+<tr class="table-row">
+<td class="tbody" align="center">
+<p class="entry-ptext">$83</p></td>
+<td class="tbody" align="center">
+<p class="entry-ptext">$14</p></td></tr>
+<tr class="table-row">
+<td class="tbody" align="center">
+<p class="entry-ptext">$84</p></td>
+<td class="tbody" align="center">
+<p class="entry-ptext">$1E</p></td>
+<td class="tbody" rowspan="2" valign="center">
+<p class="entry-ptext">A/F sensor range abnormal (B1S1)</p></td></tr>
+<tr class="table-row">
+<td class="tbody" align="center">
+<p class="entry-ptext">$85</p></td>
+<td class="tbody" align="center">
+<p class="entry-ptext">$1E</p></td></tr>
+<tr class="table-row">
+<td class="tbody" align="center">
+<p class="entry-ptext">$86</p></td>
+<td class="tbody" align="center">
+<p class="entry-ptext">$20</p></td>
+<td class="tbody">
+<p class="entry-ptext">A/F sensor response abnormal (B1S1)</p></td></tr>
+<tr class="table-row">
+<td class="tbody" rowspan="7" align="center" valign="center">
+<p class="entry-ptext">$02</p></td>
+<td class="tbody" align="center" valign="center">
+<p class="entry-ptext">$87</p></td>
+<td class="tbody" align="center">
+<p class="entry-ptext">$0B</p></td>
+<td class="tbody" rowspan="2" valign="center">
+<p class="entry-ptext">Oxygen sensor circuit abnormal (B1S2)</p></td></tr>
+<tr class="table-row">
+<td class="tbody" align="center" valign="center">
+<p class="entry-ptext">$88</p></td>
+<td class="tbody" align="center">
+<p class="entry-ptext">$0B</p></td></tr>
+<tr class="table-row">
+<td class="tbody" align="center" valign="center">
+<p class="entry-ptext">$07</p></td>
+<td class="tbody" align="center">
+<p class="entry-ptext">$0B</p></td>
+<td class="tbody" rowspan="3" valign="center">
+<p class="entry-ptext">Oxygen sensor drop abnormal (B1S2)</p></td></tr>
+<tr class="table-row">
+<td class="tbody" align="center" valign="center">
+<p class="entry-ptext">$08</p></td>
+<td class="tbody" align="center">
+<p class="entry-ptext">$0B</p></td></tr>
+<tr class="table-row">
+<td class="tbody" align="center" valign="center">
+<p class="entry-ptext">$A5</p></td>
+<td class="tbody" align="center">
+<p class="entry-ptext">$0B</p></td></tr>
+<tr class="table-row">
+<td class="tbody" align="center" valign="center">
+<p class="entry-ptext">$05</p></td>
+<td class="tbody" align="center">
+<p class="entry-ptext">$10</p></td>
+<td class="tbody" rowspan="2" valign="center">
+<p class="entry-ptext">Oxygen sensor response abnormal (B1S2)</p></td></tr>
+<tr class="table-row">
+<td class="tbody" align="center" valign="center">
+<p class="entry-ptext">$06</p></td>
+<td class="tbody" align="center">
+<p class="entry-ptext">$10</p></td></tr>
+<tr class="table-row">
+<td class="tbody" align="center">
+<p class="entry-ptext">$21</p></td>
+<td class="tbody" align="center" valign="center">
+<p class="entry-ptext">$89</p></td>
+<td class="tbody" align="center">
+<p class="entry-ptext">$20</p></td>
+<td class="tbody" align="left" valign="center">
+<p class="entry-ptext">Catalyst deterioration diagnosis (Bank1)</p></td></tr>
+<tr class="table-row">
+<td class="tbody" align="center">
+<p class="entry-ptext">$31</p></td>
+<td class="tbody" align="center" valign="center">
+<p class="entry-ptext">$8A</p></td>
+<td class="tbody" align="center">
+<p class="entry-ptext">$FD</p></td>
+<td class="tbody" align="left" valign="center">
+<p class="entry-ptext">EGR system diagnosis</p></td></tr>
+<tr class="table-row">
+<td class="tbody" rowspan="3" align="center" valign="center">
+<p class="entry-ptext">$41</p></td>
+<td class="tbody" align="center">
+<p class="entry-ptext">$99</p></td>
+<td class="tbody" align="center">
+<p class="entry-ptext">$24</p></td>
+<td class="tbody" rowspan="2" valign="center">
+<p class="entry-ptext">A/F sensor heater failure (B1S1)</p></td></tr>
+<tr class="table-row">
+<td class="tbody" align="center">
+<p class="entry-ptext">$9A</p></td>
+<td class="tbody" align="center">
+<p class="entry-ptext">$24</p></td></tr>
+<tr class="table-row">
+<td class="tbody" align="center">
+<p class="entry-ptext">$9B</p></td>
+<td class="tbody" align="center">
+<p class="entry-ptext">$14</p></td>
+<td class="tbody">
+<p class="entry-ptext">A/F sensor heater characteristics failure (B1S1)</p></td></tr>
+<tr class="table-row">
+<td class="tbody" rowspan="2" align="center" valign="center">
+<p class="entry-ptext">$42</p></td>
+<td class="tbody" align="center">
+<p class="entry-ptext">$9C</p></td>
+<td class="tbody" align="center">
+<p class="entry-ptext">$24</p></td>
+<td class="tbody" rowspan="2" valign="center">
+<p class="entry-ptext">Oxygen sensor heater failure (B1S2)</p></td></tr>
+<tr class="table-row">
+<td class="tbody" align="center">
+<p class="entry-ptext">$9D</p></td>
+<td class="tbody" align="center">
+<p class="entry-ptext">$24</p></td></tr></tbody>
+</table>
+</div>
+</div>
+</body>
+</html>

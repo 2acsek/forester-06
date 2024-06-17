@@ -1,0 +1,400 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>AUTOMATIC TRANSMISSION (DIAGNOSTICS)(4AT)(D) &gt; Diagnostic Procedure without Diagnostic Trouble Code (DTC) &gt; CHECK FWD SWITCH</title>
+<link rel="stylesheet" href="../subaru.css" type="text/css">
+<script language="JavaScript" type="text/JavaScript" src="../honbun.js"></script>
+</head>
+<body class="si-body">
+<p class="toptitle">AUTOMATIC TRANSMISSION (DIAGNOSTICS)(4AT)(D) &gt; Diagnostic Procedure without Diagnostic Trouble Code (DTC)</p>
+<p class="title-si"><a name="S044841f16"></a>CHECK FWD SWITCH</p>
+<div class="si-body">
+<p class="note-label">NOTE:</p>
+<div class="note">
+<p class="note-ptext">FWD switch check is specified for model without VDC.</p>
+</div>
+<p class="si-ptext"><span class="bold">DIAGNOSIS:</span></p>
+<div class="list1">
+<p class="list1-ptext"><span class="list1-num">&bull;  </span>LED does not come on even if FWD switch is ON.</p>
+<p class="list1-ptext"><span class="list1-num">&bull;  </span>FWD signal circuit is open or shorted.</p>
+</div>
+<p class="si-ptext-para"><span class="bold">WIRING DIAGRAM:</span></p>
+<div class="pdf-graphic-block">
+<p class="pdficon"><a href="javascript:openPDF('at-03584e.pdf')"><img src="../../image/pdficon.gif" border="0"></a></p>
+<p class="graphic-wiring"><img src="../grph_ent/at-03584e.png">
+</p></div>
+<div class="diagtest">
+<table frame="all" border=1 cellspacing=0 cellpadding=2>
+<thead>
+<tr class="testblock-header"><td>STEP</td><td>CHECK</td><td>YES</td><td>NO</td></tr>
+</thead>
+<tbody>
+<tr valign="top" class="testblock-content">
+<td>
+<div class="test">
+<p class="title-testblock"><a name="S044841f1601t01"></a><span class="testnum">1.</span>CHECK SPARE FUSE.</p>
+</div>
+</td>
+<td>
+<div class="ques">
+<p class="question">Is the spare fuse OK?</p>
+</div>
+</td>
+<td>
+<div class="res">
+<p class="yes-ptext"><a href="Javascript:go('S044841f1601t02');" title="AUTOMATIC TRANSMISSION (DIAGNOSTICS)(4AT)(D) > Diagnostic Procedure without Diagnostic Trouble Code (DTC) > CHECK FWD SWITCH"><img class="xreficon" src="../image/btn_link.gif" border="0" align="absmiddle"></a></p>
+</div>
+</td>
+<td>
+<div class="act">
+<p class="no-ptext">Replace the fuse.</p>
+</div>
+</td>
+</tr>
+<tr valign="top" class="testblock-content">
+<td>
+<div class="test">
+<p class="title-testblock"><a name="S044841f1601t02"></a><span class="testnum">2.</span>CHECK FWD SWITCH.</p>
+</div>
+</td>
+<td>
+<div class="ques">
+<p class="question">When the fuse is inserted to FWD switch, does the LED illuminate?</p>
+</div>
+</td>
+<td>
+<div class="res">
+<p class="yes-ptext">Go to step check cruise control switch.</p>
+</div>
+</td>
+<td>
+<div class="act">
+<p class="no-ptext"><a href="Javascript:go('S044841f1601t03');" title="AUTOMATIC TRANSMISSION (DIAGNOSTICS)(4AT)(D) > Diagnostic Procedure without Diagnostic Trouble Code (DTC) > CHECK FWD SWITCH"><img class="xreficon" src="../image/btn_link.gif" border="0" align="absmiddle"></a></p>
+</div>
+</td>
+</tr>
+<tr valign="top" class="testblock-content">
+<td>
+<div class="test">
+<p class="title-testblock"><a name="S044841f1601t03"></a><span class="testnum">3.</span>CHECK HARNESS CONNECTOR BETWEEN TCM AND FWD SWITCH.</p>
+<div class="test1">
+<p class="t1-ptext"><span class="t1-num">1) </span>Turn the ignition switch to OFF.</p>
+</div>
+<div class="test1">
+<p class="t1-ptext"><span class="t1-num">2) </span>Disconnect the connector from the TCM and FWD switches.</p>
+</div>
+<div class="test1">
+<p class="t1-ptext"><span class="t1-num">3) </span>Measure the resistance of harness between TCM and FWD switch connector.</p>
+<div class="specblock">
+<p class="specblock-ptext">Connector &amp; terminal</p>
+<div class="specpara">
+<p class="spectext1-normal">(B54) No. 10 &mdash; (F27) No. 36:</p>
+</div>
+</div>
+</div>
+</div>
+</td>
+<td>
+<div class="ques">
+<p class="question">Is the resistance less than 1 &#8486;?</p>
+</div>
+</td>
+<td>
+<div class="res">
+<p class="yes-ptext"><a href="Javascript:go('S044841f1601t04');" title="AUTOMATIC TRANSMISSION (DIAGNOSTICS)(4AT)(D) > Diagnostic Procedure without Diagnostic Trouble Code (DTC) > CHECK FWD SWITCH"><img class="xreficon" src="../image/btn_link.gif" border="0" align="absmiddle"></a></p>
+</div>
+</td>
+<td>
+<div class="act">
+<p class="no-ptext">Repair the open circuit of harness between TCM and FWD switch connectors.</p>
+</div>
+</td>
+</tr>
+<tr valign="top" class="testblock-content">
+<td>
+<div class="test">
+<p class="title-testblock"><a name="S044841f1601t04"></a><span class="testnum">4.</span>CHECK HARNESS CONNECTOR BETWEEN TCM AND FWD SWITCH.</p>
+<p class="testblock-ptext">Measure the resistance of harness connector between TCM and body to make sure that circuit does not short.</p>
+<div class="specblock">
+<p class="specblock-ptext">Connector &amp; terminal</p>
+<div class="specpara">
+<p class="spectext1-normal">(B54) No. 10 &mdash; Chassis ground:</p>
+</div>
+</div>
+</div>
+</td>
+<td>
+<div class="ques">
+<p class="question">Is the resistance 1 M&#8486; or more?</p>
+</div>
+</td>
+<td>
+<div class="res">
+<p class="yes-ptext"><a href="Javascript:go('S044841f1601t05');" title="AUTOMATIC TRANSMISSION (DIAGNOSTICS)(4AT)(D) > Diagnostic Procedure without Diagnostic Trouble Code (DTC) > CHECK FWD SWITCH"><img class="xreficon" src="../image/btn_link.gif" border="0" align="absmiddle"></a></p>
+</div>
+</td>
+<td>
+<div class="act">
+<p class="no-ptext">Repair the short circuit of harness between TCM and FWD switch connectors.</p>
+</div>
+</td>
+</tr>
+<tr valign="top" class="testblock-content">
+<td>
+<div class="test">
+<p class="title-testblock"><a name="S044841f1601t05"></a><span class="testnum">5.</span>CHECK HARNESS CONNECTOR BETWEEN FWD SWITCH AND CHASSIS GROUND.</p>
+<p class="testblock-ptext">Measure the resistance of harness between FWD switch and chassis ground.</p>
+<div class="specblock">
+<p class="specblock-ptext">Connector &amp; terminal</p>
+<div class="specpara">
+<p class="spectext1-normal">(F27) No. 35 &mdash; Chassis ground:</p>
+</div>
+</div>
+</div>
+</td>
+<td>
+<div class="ques">
+<p class="question">Is the resistance less than 1 &#8486;?</p>
+</div>
+</td>
+<td>
+<div class="res">
+<p class="yes-ptext"><a href="Javascript:go('S044841f1601t06');" title="AUTOMATIC TRANSMISSION (DIAGNOSTICS)(4AT)(D) > Diagnostic Procedure without Diagnostic Trouble Code (DTC) > CHECK FWD SWITCH"><img class="xreficon" src="../image/btn_link.gif" border="0" align="absmiddle"></a></p>
+</div>
+</td>
+<td>
+<div class="act">
+<p class="no-ptext">Repair the open circuit of harness between FWD switch connector and chassis ground.</p>
+</div>
+</td>
+</tr>
+<tr valign="top" class="testblock-content">
+<td>
+<div class="test">
+<p class="title-testblock"><a name="S044841f1601t06"></a><span class="testnum">6.</span>CHECK INPUT SIGNAL FOR TCM.</p>
+<div class="test1">
+<p class="t1-ptext"><span class="t1-num">1) </span>Turn the ignition switch to OFF.</p>
+</div>
+<div class="test1">
+<p class="t1-ptext"><span class="t1-num">2) </span>Connect the connector to TCM and FWD switch.</p>
+</div>
+<div class="test1">
+<p class="t1-ptext"><span class="t1-num">3) </span>Turn the ignition switch to ON.</p>
+</div>
+<div class="test1">
+<p class="t1-ptext"><span class="t1-num">4) </span>Measure the signal voltage for TCM while installing the fuse to FWD switch connector.</p>
+<div class="specblock">
+<p class="specblock-ptext">Connector &amp; terminal</p>
+<div class="specpara">
+<p class="spectext1-normal">(B54) No. 10 (+) &mdash; Chassis ground (&minus;):</p>
+</div>
+</div>
+</div>
+</div>
+</td>
+<td>
+<div class="ques">
+<p class="question">Is the voltage less than 1 V?</p>
+</div>
+</td>
+<td>
+<div class="res">
+<p class="yes-ptext"><a href="Javascript:go('S044841f1601t07');" title="AUTOMATIC TRANSMISSION (DIAGNOSTICS)(4AT)(D) > Diagnostic Procedure without Diagnostic Trouble Code (DTC) > CHECK FWD SWITCH"><img class="xreficon" src="../image/btn_link.gif" border="0" align="absmiddle"></a></p>
+</div>
+</td>
+<td>
+<div class="act">
+<p class="no-ptext"><a href="Javascript:go('S044841f1601t11');" title="AUTOMATIC TRANSMISSION (DIAGNOSTICS)(4AT)(D) > Diagnostic Procedure without Diagnostic Trouble Code (DTC) > CHECK FWD SWITCH"><img class="xreficon" src="../image/btn_link.gif" border="0" align="absmiddle"></a></p>
+</div>
+</td>
+</tr>
+<tr valign="top" class="testblock-content">
+<td>
+<div class="test">
+<p class="title-testblock"><a name="S044841f1601t07"></a><span class="testnum">7.</span>CHECK INPUT SIGNAL FOR TCM.</p>
+<p class="testblock-ptext">Measure the signal voltage for TCM with the fuse removed from FWD switch connector.</p>
+<div class="specblock">
+<p class="specblock-ptext">Connector &amp; terminal</p>
+<div class="specpara">
+<p class="spectext1-normal">(B54) No. 10 (+) &mdash; Chassis ground (&minus;):</p>
+</div>
+</div>
+</div>
+</td>
+<td>
+<div class="ques">
+<p class="question">Is the voltage 10.5 V or more?</p>
+</div>
+</td>
+<td>
+<div class="res">
+<p class="yes-ptext"><a href="Javascript:go('S044841f1601t08');" title="AUTOMATIC TRANSMISSION (DIAGNOSTICS)(4AT)(D) > Diagnostic Procedure without Diagnostic Trouble Code (DTC) > CHECK FWD SWITCH"><img class="xreficon" src="../image/btn_link.gif" border="0" align="absmiddle"></a></p>
+</div>
+</td>
+<td>
+<div class="act">
+<p class="no-ptext">Replace the TCM. <a href="Javascript:go('S502225');" title="AUTOMATIC TRANSMISSION(4AT) > Transmission Control Module (TCM)"><img class="xreficon" src="../image/btn_link.gif" border="0" align="absmiddle"></a></p>
+</div>
+</td>
+</tr>
+<tr valign="top" class="testblock-content">
+<td>
+<div class="test">
+<p class="title-testblock"><a name="S044841f1601t08"></a><span class="testnum">8.</span>CHECK HARNESS CONNECTOR BETWEEN TCM AND COMBINATION METER.</p>
+<div class="test1">
+<p class="t1-ptext"><span class="t1-num">1) </span>Turn the ignition switch to OFF.</p>
+</div>
+<div class="test1">
+<p class="t1-ptext"><span class="t1-num">2) </span>Disconnect the connectors from TCM and combination meter.</p>
+</div>
+<div class="test1">
+<p class="t1-ptext"><span class="t1-num">3) </span>Measure the resistance of harness between TCM and diagnosis connector.</p>
+<div class="specblock">
+<p class="specblock-ptext">Connector &amp; terminal</p>
+<div class="specpara">
+<p class="spectext1-normal">(B54) No. 13 &mdash; (i11) No. 4:</p>
+</div>
+</div>
+</div>
+</div>
+</td>
+<td>
+<div class="ques">
+<p class="question">Is the resistance less than 1 &#8486;?</p>
+</div>
+</td>
+<td>
+<div class="res">
+<p class="yes-ptext"><a href="Javascript:go('S044841f1601t09');" title="AUTOMATIC TRANSMISSION (DIAGNOSTICS)(4AT)(D) > Diagnostic Procedure without Diagnostic Trouble Code (DTC) > CHECK FWD SWITCH"><img class="xreficon" src="../image/btn_link.gif" border="0" align="absmiddle"></a></p>
+</div>
+</td>
+<td>
+<div class="act">
+<p class="no-ptext">Repair the open circuit of harness between TCM and combination meter, and the poor contact of the connector.</p>
+</div>
+</td>
+</tr>
+<tr valign="top" class="testblock-content">
+<td>
+<div class="test">
+<p class="title-testblock"><a name="S044841f1601t09"></a><span class="testnum">9.</span>CHECK HARNESS CONNECTOR BETWEEN TCM AND COMBINATION METER.</p>
+<p class="testblock-ptext">Measure the resistance of the harness connector between TCM and chassis ground to make sure that circuit is not shorted.</p>
+<div class="specblock">
+<p class="specblock-ptext">Connector &amp; terminal</p>
+<div class="specpara">
+<p class="spectext1-normal">(B54) No. 13 &mdash; Chassis ground:</p>
+</div>
+</div>
+</div>
+</td>
+<td>
+<div class="ques">
+<p class="question">Is the resistance 1 M&#8486; or more?</p>
+</div>
+</td>
+<td>
+<div class="res">
+<p class="yes-ptext"><a href="Javascript:go('S044841f1601t10');" title="AUTOMATIC TRANSMISSION (DIAGNOSTICS)(4AT)(D) > Diagnostic Procedure without Diagnostic Trouble Code (DTC) > CHECK FWD SWITCH"><img class="xreficon" src="../image/btn_link.gif" border="0" align="absmiddle"></a></p>
+</div>
+</td>
+<td>
+<div class="act">
+<p class="no-ptext">Repair short circuit of harness between TCM and combination meter connector.</p>
+</div>
+</td>
+</tr>
+<tr valign="top" class="testblock-content">
+<td>
+<div class="test">
+<p class="title-testblock"><a name="S044841f1601t10"></a><span class="testnum">10.</span>CHECK OUTPUT SIGNAL OF TCM.</p>
+<div class="test1">
+<p class="t1-ptext"><span class="t1-num">1) </span>Turn the ignition switch to OFF.</p>
+</div>
+<div class="test1">
+<p class="t1-ptext"><span class="t1-num">2) </span>Connect the connector to TCM and combination meter.</p>
+</div>
+<div class="test1">
+<p class="t1-ptext"><span class="t1-num">3) </span>Turn the ignition switch to ON.</p>
+</div>
+<div class="test1">
+<p class="t1-ptext"><span class="t1-num">4) </span>Measure the signal voltage for TCM while installing and removing the fuse to FWD switch connector.</p>
+<div class="specblock">
+<p class="specblock-ptext">Connector &amp; terminal</p>
+<div class="specpara">
+<p class="spectext1-normal">(B54) No. 13 (+) &mdash; Chassis ground (&minus;):</p>
+</div>
+</div>
+</div>
+</div>
+</td>
+<td>
+<div class="ques">
+<p class="question">Is the voltage less than 1 V?</p>
+</div>
+</td>
+<td>
+<div class="res">
+<p class="yes-ptext"><a href="Javascript:go('S044841f1601t11');" title="AUTOMATIC TRANSMISSION (DIAGNOSTICS)(4AT)(D) > Diagnostic Procedure without Diagnostic Trouble Code (DTC) > CHECK FWD SWITCH"><img class="xreficon" src="../image/btn_link.gif" border="0" align="absmiddle"></a></p>
+</div>
+</td>
+<td>
+<div class="act">
+<p class="no-ptext"><a href="Javascript:go('S044841f1601t12');" title="AUTOMATIC TRANSMISSION (DIAGNOSTICS)(4AT)(D) > Diagnostic Procedure without Diagnostic Trouble Code (DTC) > CHECK FWD SWITCH"><img class="xreficon" src="../image/btn_link.gif" border="0" align="absmiddle"></a></p>
+</div>
+</td>
+</tr>
+<tr valign="top" class="testblock-content">
+<td>
+<div class="test">
+<p class="title-testblock"><a name="S044841f1601t11"></a><span class="testnum">11.</span>CHECK OUTPUT SIGNAL OF TCM.</p>
+<p class="testblock-ptext">Measure the signal voltage for TCM with the fuse removed from FWD switch connector.</p>
+<div class="specblock">
+<p class="specblock-ptext">Connector &amp; terminal</p>
+<div class="specpara">
+<p class="spectext1-normal">(B54) No. 13 (+) &mdash; Chassis ground (&minus;):</p>
+</div>
+</div>
+</div>
+</td>
+<td>
+<div class="ques">
+<p class="question">Is the voltage 10.5 V or more?</p>
+</div>
+</td>
+<td>
+<div class="res">
+<p class="yes-ptext"><a href="Javascript:go('S044841f1601t12');" title="AUTOMATIC TRANSMISSION (DIAGNOSTICS)(4AT)(D) > Diagnostic Procedure without Diagnostic Trouble Code (DTC) > CHECK FWD SWITCH"><img class="xreficon" src="../image/btn_link.gif" border="0" align="absmiddle"></a></p>
+</div>
+</td>
+<td>
+<div class="act">
+<p class="no-ptext">Replace the TCM. <a href="Javascript:go('S502225');" title="AUTOMATIC TRANSMISSION(4AT) > Transmission Control Module (TCM)"><img class="xreficon" src="../image/btn_link.gif" border="0" align="absmiddle"></a></p>
+</div>
+</td>
+</tr>
+<tr valign="top" class="testblock-content">
+<td>
+<div class="test">
+<p class="title-testblock"><a name="S044841f1601t12"></a><span class="testnum">12.</span>CHECK POOR CONTACT.</p>
+</div>
+</td>
+<td>
+<div class="ques">
+<p class="question">Is there poor contact in FWD switch circuit?</p>
+</div>
+</td>
+<td>
+<div class="res">
+<p class="yes-ptext">Repair the poor contact.</p>
+</div>
+</td>
+<td>
+<div class="act">
+<p class="no-ptext">Replace the TCM. <a href="Javascript:go('S502225');" title="AUTOMATIC TRANSMISSION(4AT) > Transmission Control Module (TCM)"><img class="xreficon" src="../image/btn_link.gif" border="0" align="absmiddle"></a></p>
+</div>
+</td>
+</tr>
+</tbody></table></div>
+</div>
+</body>
+</html>

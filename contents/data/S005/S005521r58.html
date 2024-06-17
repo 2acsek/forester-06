@@ -1,0 +1,398 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>VEHICLE DYNAMICS CONTROL (VDC) (DIAGNOSTICS) &gt; Diagnostic Procedure with Diagnostic Trouble Code (DTC) &gt; DTC 74 DIFFERENTIAL PRESSURE OF PRESSURE SENSOR IS TOO BIG</title>
+<link rel="stylesheet" href="../subaru.css" type="text/css">
+<script language="JavaScript" type="text/JavaScript" src="../honbun.js"></script>
+</head>
+<body class="si-body">
+<p class="toptitle">VEHICLE DYNAMICS CONTROL (VDC) (DIAGNOSTICS) &gt; Diagnostic Procedure with Diagnostic Trouble Code (DTC)</p>
+<p class="title-si"><a name="S005521r58"></a>DTC 74 DIFFERENTIAL PRESSURE OF PRESSURE SENSOR IS TOO BIG</p>
+<div class="si-body">
+<p class="si-ptext"><span class="bold">DTC DETECTING CONDITION:</span></p>
+<p class="si-ptext-para">Pressure sensor malfunction</p>
+<p class="si-ptext-para"><span class="bold">TROUBLE SYMPTOM:</span></p>
+<div class="list1">
+<p class="list1-ptext"><span class="list1-num">&bull;  </span>ABS does not operate.</p>
+<p class="list1-ptext"><span class="list1-num">&bull;  </span>VDC does not operate.</p>
+</div>
+<p class="si-ptext-para"><span class="bold">WIRING DIAGRAM:</span></p>
+<div class="list1">
+<p class="list1-ptext"><span class="list1-num">&bull;  </span>LHD model</p>
+<div class="pdf-graphic-block">
+<p class="pdficon"><a href="javascript:openPDF('vdc00443e.pdf')"><img src="../../image/pdficon.gif" border="0"></a></p>
+<p class="graphic-wiring"><img src="../grph_ent/vdc00443e.png">
+</p></div>
+<p class="list1-ptext"><span class="list1-num">&bull;  </span>RHD model</p>
+<div class="pdf-graphic-block">
+<p class="pdficon"><a href="javascript:openPDF('vdc00444e.pdf')"><img src="../../image/pdficon.gif" border="0"></a></p>
+<p class="graphic-wiring"><img src="../grph_ent/vdc00444e.png">
+</p></div>
+</div>
+<div class="diagtest">
+<table frame="all" border=1 cellspacing=0 cellpadding=2>
+<thead>
+<tr class="testblock-header"><td>STEP</td><td>CHECK</td><td>YES</td><td>NO</td></tr>
+</thead>
+<tbody>
+<tr valign="top" class="testblock-content">
+<td>
+<div class="test">
+<p class="title-testblock"><a name="S005521r58t01"></a><span class="testnum">1.</span>CHECK GROUND SHORT CIRCUIT OF HARNESS.</p>
+<div class="test1">
+<p class="t1-ptext"><span class="t1-num">1) </span>Turn the ignition switch to OFF.</p>
+</div>
+<div class="test1">
+<p class="t1-ptext"><span class="t1-num">2) </span>Disconnect the connectors from VDCCM.</p>
+</div>
+<div class="test1">
+<p class="t1-ptext"><span class="t1-num">3) </span>Disconnect the connectors (B368) (LHD model) and (F91) (RHD model) from VDCH/U.</p>
+</div>
+<div class="test1">
+<p class="t1-ptext"><span class="t1-num">4) </span>Measure the resistance between VDCH/U connector and chassis ground.</p>
+<div class="specblock">
+<p class="specblock-ptext">Connector &amp; terminal</p>
+<div class="specpara">
+<p class="spectext1-bold">LHD</p>
+<p class="spectext2-normal">(B368) No. 13 &mdash; Chassis ground:<br> (B368) No. 14 &mdash; Chassis ground:</p>
+</div>
+<div class="specpara">
+<p class="spectext1-bold">RHD</p>
+<p class="spectext2-normal">(F91) No. 13 &mdash; Chassis ground:<br> (F91) No. 14 &mdash; Chassis ground:</p>
+</div>
+</div>
+</div>
+</div>
+</td>
+<td>
+<div class="ques">
+<p class="question">Is the resistance 1 M&#8486; or more?</p>
+</div>
+</td>
+<td>
+<div class="res">
+<p class="yes-ptext"><a href="Javascript:go('S005521r58t02');" title="VEHICLE DYNAMICS CONTROL (VDC) (DIAGNOSTICS) > Diagnostic Procedure with Diagnostic Trouble Code (DTC) > DTC 74 DIFFERENTIAL PRESSURE OF PRESSURE SENSOR IS TOO BIG"><img class="xreficon" src="../image/btn_link.gif" border="0" align="absmiddle"></a></p>
+</div>
+</td>
+<td>
+<div class="act">
+<p class="no-ptext">Repair the harness between VDCH/U and VDCCM.</p>
+</div>
+</td>
+</tr>
+<tr valign="top" class="testblock-content">
+<td>
+<div class="test">
+<p class="title-testblock"><a name="S005521r58t02"></a><span class="testnum">2.</span>CHECK BATTERY SHORT OF HARNESS.</p>
+<p class="testblock-ptext">Measure the voltage between VDCH/U connector and chassis ground.</p>
+<div class="specblock">
+<p class="specblock-ptext">Connector &amp; terminal</p>
+<div class="specpara">
+<p class="spectext1-bold">LHD</p>
+<p class="spectext2-normal">(B368) No. 13 (+) &mdash; Chassis ground (&minus;):<br> (B368) No. 14 (+) &mdash; Chassis ground (&minus;):</p>
+</div>
+<div class="specpara">
+<p class="spectext1-bold">RHD</p>
+<p class="spectext2-normal">(F91) No. 13 (+) &mdash; Chassis ground (&minus;):<br> (F91) No. 14 (+) &mdash; Chassis ground (&minus;):</p>
+</div>
+</div>
+</div>
+</td>
+<td>
+<div class="ques">
+<p class="question">Is the voltage less than 0.5 V?</p>
+</div>
+</td>
+<td>
+<div class="res">
+<p class="yes-ptext"><a href="Javascript:go('S005521r58t03');" title="VEHICLE DYNAMICS CONTROL (VDC) (DIAGNOSTICS) > Diagnostic Procedure with Diagnostic Trouble Code (DTC) > DTC 74 DIFFERENTIAL PRESSURE OF PRESSURE SENSOR IS TOO BIG"><img class="xreficon" src="../image/btn_link.gif" border="0" align="absmiddle"></a></p>
+</div>
+</td>
+<td>
+<div class="act">
+<p class="no-ptext">Repair the harness between VDCH/U and VDCCM.</p>
+</div>
+</td>
+</tr>
+<tr valign="top" class="testblock-content">
+<td>
+<div class="test">
+<p class="title-testblock"><a name="S005521r58t03"></a><span class="testnum">3.</span>CHECK BATTERY SHORT OF HARNESS.</p>
+<div class="test1">
+<p class="t1-ptext"><span class="t1-num">1) </span>Turn the ignition switch to ON.</p>
+</div>
+<div class="test1">
+<p class="t1-ptext"><span class="t1-num">2) </span>Measure the voltage between VDCH/U connector and chassis ground.</p>
+<div class="specblock">
+<p class="specblock-ptext">Connector &amp; terminal</p>
+<div class="specpara">
+<p class="spectext1-bold">LHD</p>
+<p class="spectext2-normal">(B368) No. 13 (+) &mdash; Chassis ground (&minus;):<br> (B368) No. 14 (+) &mdash; Chassis ground (&minus;):</p>
+</div>
+<div class="specpara">
+<p class="spectext1-bold">RHD</p>
+<p class="spectext2-normal">(F91) No. 13 (+) &mdash; Chassis ground (&minus;):<br> (F91) No. 14 (+) &mdash; Chassis ground (&minus;):</p>
+</div>
+</div>
+</div>
+</div>
+</td>
+<td>
+<div class="ques">
+<p class="question">Is the voltage less than 0.5 V?</p>
+</div>
+</td>
+<td>
+<div class="res">
+<p class="yes-ptext"><a href="Javascript:go('S005521r58t04');" title="VEHICLE DYNAMICS CONTROL (VDC) (DIAGNOSTICS) > Diagnostic Procedure with Diagnostic Trouble Code (DTC) > DTC 74 DIFFERENTIAL PRESSURE OF PRESSURE SENSOR IS TOO BIG"><img class="xreficon" src="../image/btn_link.gif" border="0" align="absmiddle"></a></p>
+</div>
+</td>
+<td>
+<div class="act">
+<p class="no-ptext">Repair the harness between VDCH/U and VDCCM.</p>
+</div>
+</td>
+</tr>
+<tr valign="top" class="testblock-content">
+<td>
+<div class="test">
+<p class="title-testblock"><a name="S005521r58t04"></a><span class="testnum">4.</span>CHECK INPUT VOLTAGE OF PRESSURE SENSOR.</p>
+<div class="test1">
+<p class="t1-ptext"><span class="t1-num">1) </span>Turn the ignition switch to OFF.</p>
+</div>
+<div class="test1">
+<p class="t1-ptext"><span class="t1-num">2) </span>Disconnect the connectors from VDCCM.</p>
+</div>
+<div class="test1">
+<p class="t1-ptext"><span class="t1-num">3) </span>Remove the cover from VDCCM. <a href="Javascript:go('S005598a18');" title="VEHICLE DYNAMICS CONTROL (VDC) (DIAGNOSTICS) > VDCCM Connector Cover > REMOVAL"><img class="xreficon" src="../image/btn_link.gif" border="0" align="absmiddle"></a></p>
+</div>
+<div class="test1">
+<p class="t1-ptext"><span class="t1-num">4) </span>Connect the connector to the VDCCM.</p>
+</div>
+<div class="test1">
+<p class="t1-ptext"><span class="t1-num">5) </span>Connect all connectors.</p>
+</div>
+<div class="test1">
+<p class="t1-ptext"><span class="t1-num">6) </span>Turn the ignition switch to ON.</p>
+</div>
+<div class="test1">
+<p class="t1-ptext"><span class="t1-num">7) </span>Do not depress the brake pedal.</p>
+</div>
+<div class="test1">
+<p class="t1-ptext"><span class="t1-num">8) </span>Measure the voltage between VDCCM connector terminals.</p>
+<div class="specblock">
+<p class="specblock-ptext">Connector &amp; terminal</p>
+<div class="specpara">
+<p class="spectext1-normal">(B310) No. 76 (+) &mdash; No. 75 (&minus;):</p>
+</div>
+<div class="specpara">
+<p class="spectext1-normal">(B310) No. 44 (+) &mdash; No. 75 (&minus;):</p>
+</div>
+</div>
+</div>
+</div>
+</td>
+<td>
+<div class="ques">
+<p class="question">Is the voltage 0.48 &mdash; 0.72 V?</p>
+</div>
+</td>
+<td>
+<div class="res">
+<p class="yes-ptext"><a href="Javascript:go('S005521r58t05');" title="VEHICLE DYNAMICS CONTROL (VDC) (DIAGNOSTICS) > Diagnostic Procedure with Diagnostic Trouble Code (DTC) > DTC 74 DIFFERENTIAL PRESSURE OF PRESSURE SENSOR IS TOO BIG"><img class="xreficon" src="../image/btn_link.gif" border="0" align="absmiddle"></a></p>
+</div>
+</td>
+<td>
+<div class="act">
+<p class="no-ptext">Replace the VDCH/U. <a href="Javascript:go('S402044');" title="VEHICLE DYNAMICS CONTROL (VDC) > VDC Hydraulic Control Module (VDCH/U)"><img class="xreficon" src="../image/btn_link.gif" border="0" align="absmiddle"></a></p>
+</div>
+</td>
+</tr>
+<tr valign="top" class="testblock-content">
+<td>
+<div class="test">
+<p class="title-testblock"><a name="S005521r58t05"></a><span class="testnum">5.</span>CHECK FOR BRAKE FLUID LEAKS.</p>
+<p class="testblock-ptext">Check for fluid leaks between brake master cylinder and VDCH/U.</p>
+</div>
+</td>
+<td>
+<div class="ques">
+<p class="question">Is brake fluid leaking?</p>
+</div>
+</td>
+<td>
+<div class="res">
+<p class="yes-ptext">Retighten or replace.</p>
+</div>
+</td>
+<td>
+<div class="act">
+<p class="no-ptext"><a href="Javascript:go('S005521r58t06');" title="VEHICLE DYNAMICS CONTROL (VDC) (DIAGNOSTICS) > Diagnostic Procedure with Diagnostic Trouble Code (DTC) > DTC 74 DIFFERENTIAL PRESSURE OF PRESSURE SENSOR IS TOO BIG"><img class="xreficon" src="../image/btn_link.gif" border="0" align="absmiddle"></a></p>
+</div>
+</td>
+</tr>
+<tr valign="top" class="testblock-content">
+<td>
+<div class="test">
+<p class="title-testblock"><a name="S005521r58t06"></a><span class="testnum">6.</span>CHECK BRAKE MASTER CYLINDER.</p>
+<p class="testblock-ptext">Check the brake master cylinder oil pressure. <a href="Javascript:go('S405166a1002');" title="BRAKE > Brake Booster > INSPECTION"><img class="xreficon" src="../image/btn_link.gif" border="0" align="absmiddle"></a></p>
+</div>
+</td>
+<td>
+<div class="ques">
+<p class="question">Is oil pressure normal?</p>
+</div>
+</td>
+<td>
+<div class="res">
+<p class="yes-ptext"><a href="Javascript:go('S005521r58t07');" title="VEHICLE DYNAMICS CONTROL (VDC) (DIAGNOSTICS) > Diagnostic Procedure with Diagnostic Trouble Code (DTC) > DTC 74 DIFFERENTIAL PRESSURE OF PRESSURE SENSOR IS TOO BIG"><img class="xreficon" src="../image/btn_link.gif" border="0" align="absmiddle"></a></p>
+</div>
+</td>
+<td>
+<div class="act">
+<p class="no-ptext">Replace the master cylinder.</p>
+</div>
+</td>
+</tr>
+<tr valign="top" class="testblock-content">
+<td>
+<div class="test">
+<p class="title-testblock"><a name="S005521r58t07"></a><span class="testnum">7.</span>CHECK BRAKE PEDAL STROKE.</p>
+<p class="testblock-ptext">Measure the stroke of the brake pedal at 50 kg (110 lb).</p>
+</div>
+</td>
+<td>
+<div class="ques">
+<p class="question">Is the stroke less than 105 mm (4.13 in)?</p>
+</div>
+</td>
+<td>
+<div class="res">
+<p class="yes-ptext"><a href="Javascript:go('S005521r58t08');" title="VEHICLE DYNAMICS CONTROL (VDC) (DIAGNOSTICS) > Diagnostic Procedure with Diagnostic Trouble Code (DTC) > DTC 74 DIFFERENTIAL PRESSURE OF PRESSURE SENSOR IS TOO BIG"><img class="xreficon" src="../image/btn_link.gif" border="0" align="absmiddle"></a></p>
+</div>
+</td>
+<td>
+<div class="act">
+<p class="no-ptext">Bleed the air of brake system.</p>
+</div>
+</td>
+</tr>
+<tr valign="top" class="testblock-content">
+<td>
+<div class="test">
+<p class="title-testblock"><a name="S005521r58t08"></a><span class="testnum">8.</span>CHECK INPUT VOLTAGE OF PRESSURE SENSOR.</p>
+<div class="test1">
+<p class="t1-ptext"><span class="t1-num">1) </span>Depress the brake pedal with the force of 50 kg (110 lb).</p>
+</div>
+<div class="test1">
+<p class="t1-ptext"><span class="t1-num">2) </span>Measure the voltage between VDCCM connector terminals.</p>
+<div class="specblock">
+<p class="specblock-ptext">Connector &amp; terminal</p>
+<div class="specpara">
+<p class="spectext1-normal">(B310) No. 76 (+) &mdash; No. 75 (&minus;):</p>
+</div>
+<div class="specpara">
+<p class="spectext1-normal">(B310) No. 44 (+) &mdash; No. 75 (&minus;):</p>
+</div>
+</div>
+</div>
+</div>
+</td>
+<td>
+<div class="ques">
+<p class="question">Is the voltage less than 0.2 V?</p>
+</div>
+</td>
+<td>
+<div class="res">
+<p class="yes-ptext"><a href="Javascript:go('S005521r58t09');" title="VEHICLE DYNAMICS CONTROL (VDC) (DIAGNOSTICS) > Diagnostic Procedure with Diagnostic Trouble Code (DTC) > DTC 74 DIFFERENTIAL PRESSURE OF PRESSURE SENSOR IS TOO BIG"><img class="xreficon" src="../image/btn_link.gif" border="0" align="absmiddle"></a></p>
+</div>
+</td>
+<td>
+<div class="act">
+<p class="no-ptext">Replace the VDCH/U. <a href="Javascript:go('S402044');" title="VEHICLE DYNAMICS CONTROL (VDC) > VDC Hydraulic Control Module (VDCH/U)"><img class="xreficon" src="../image/btn_link.gif" border="0" align="absmiddle"></a></p>
+</div>
+</td>
+</tr>
+<tr valign="top" class="testblock-content">
+<td>
+<div class="test">
+<p class="title-testblock"><a name="S005521r58t09"></a><span class="testnum">9.</span>CHECK POOR CONTACT OF CONNECTOR.</p>
+</div>
+</td>
+<td>
+<div class="ques">
+<p class="question">Is there poor contact in connectors between VDCCM and pressure sensor?</p>
+</div>
+</td>
+<td>
+<div class="res">
+<p class="yes-ptext">Repair the connector.</p>
+</div>
+</td>
+<td>
+<div class="act">
+<p class="no-ptext"><a href="Javascript:go('S005521r58t10');" title="VEHICLE DYNAMICS CONTROL (VDC) (DIAGNOSTICS) > Diagnostic Procedure with Diagnostic Trouble Code (DTC) > DTC 74 DIFFERENTIAL PRESSURE OF PRESSURE SENSOR IS TOO BIG"><img class="xreficon" src="../image/btn_link.gif" border="0" align="absmiddle"></a></p>
+</div>
+</td>
+</tr>
+<tr valign="top" class="testblock-content">
+<td>
+<div class="test">
+<p class="title-testblock"><a name="S005521r58t10"></a><span class="testnum">10.</span>CHECK VDCCM.</p>
+<div class="test1">
+<p class="t1-ptext"><span class="t1-num">1) </span>Connect all connectors.</p>
+</div>
+<div class="test1">
+<p class="t1-ptext"><span class="t1-num">2) </span>Erase the memory.</p>
+</div>
+<div class="test1">
+<p class="t1-ptext"><span class="t1-num">3) </span>Perform the Inspection Mode.</p>
+</div>
+<div class="test1">
+<p class="t1-ptext"><span class="t1-num">4) </span>Read the DTC.</p>
+</div>
+</div>
+</td>
+<td>
+<div class="ques">
+<p class="question">In the current diagnosis, is the same DTC displayed again?</p>
+</div>
+</td>
+<td>
+<div class="res">
+<p class="yes-ptext">Replace the VDCCM. <a href="Javascript:go('S402045');" title="VEHICLE DYNAMICS CONTROL (VDC) > VDC Control Module (VDCCM)"><img class="xreficon" src="../image/btn_link.gif" border="0" align="absmiddle"></a></p>
+</div>
+</td>
+<td>
+<div class="act">
+<p class="no-ptext"><a href="Javascript:go('S005521r58t11');" title="VEHICLE DYNAMICS CONTROL (VDC) (DIAGNOSTICS) > Diagnostic Procedure with Diagnostic Trouble Code (DTC) > DTC 74 DIFFERENTIAL PRESSURE OF PRESSURE SENSOR IS TOO BIG"><img class="xreficon" src="../image/btn_link.gif" border="0" align="absmiddle"></a></p>
+</div>
+</td>
+</tr>
+<tr valign="top" class="testblock-content">
+<td>
+<div class="test">
+<p class="title-testblock"><a name="S005521r58t11"></a><span class="testnum">11.</span>CHECK ANY OTHER DTC ON DISPLAY.</p>
+</div>
+</td>
+<td>
+<div class="ques">
+<p class="question">Are other DTCs displayed?</p>
+</div>
+</td>
+<td>
+<div class="res">
+<p class="yes-ptext">Go to the diagnosis corresponding to the DTC.</p>
+</div>
+</td>
+<td>
+<div class="act">
+<p class="no-ptext">Temporary poor contact occurs.</p>
+</div>
+</td>
+</tr>
+</tbody></table></div>
+</div>
+</body>
+</html>

@@ -1,0 +1,287 @@
+.ptxt {
+  font-size:10 pt; 
+  .font-family:"Verdana", "Arial"
+  /* margin-left:25 px; */
+}
+
+.servinfo_title {
+  color:#A51D4A; 
+  font-size:17px; 
+  font-family:"Verdana", "Arial"; 
+  font-weight:bold; 
+/*  font-size:11 pt; */
+/*  font-weight:bold; */
+  padding:6px 0px 6px 0px; 
+/*  background-color:#D7E1EE; */
+  border:#F9AA6F solid; 
+  border-width:0px 0px 1px 0px; 
+/*  margin-bottom:0.5 em; */
+}
+
+.sct_title {
+	font-size:11 pt; 
+	color:#666666; 
+	font-weight:bold; 
+	padding:2px 2px; 
+        font-family:"Verdana", "Arial"
+}
+
+.si-body {font-size:10pt; line-height:1.5em; font-family:"Verdana", "Arial"}
+.warning {font-weight:bold; color:#FF3300; margin-bottom:0px; margin-top:0px; margin-left:0px; font-family:"Verdana", "Arial";}
+.warning-label {font-weight:bold; color:#FF3300; margin-bottom:0px; margin-top:0px; margin-left:0px; font-family:"Verdana", "Arial";}
+.caution {font-weight:bold; color:#FF3300; margin-bottom:0px; margin-top:0px; margin-left:0px; font-family:"Verdana", "Arial";}
+.caution-label {font-weight:bold; color:#FF3300; margin-bottom:0px; margin-top:0px; margin-left:0px; font-family:"Verdana", "Arial";}
+.notice { }
+.notice-label { }
+.note {font-weight:bold; color:#0066CC; margin-bottom:0px; margin-top:0px; margin-left:0px; font-family:"Verdana", "Arial";}
+.note-label {font-weight:bold; color:#0066CC; margin-bottom:0px; margin-top:0px; margin-left:0px; font-family:"Verdana", "Arial";}
+.testblock-test .warning {font-weight:bold; color:#FF3300; margin-bottom:0px; margin-top:0px; margin-left:10px; font-family:"Verdana", "Arial";}
+.testblock-test .warning-label {font-weight:bold; color:#FF3300; margin-bottom:0px; margin-top:0px; margin-left:10px; font-family:"Verdana", "Arial";}
+.testblock-test .caution {font-weight:bold; color:#FF3300; margin-bottom:0px; margin-top:0px; margin-left:10px; font-family:"Verdana", "Arial";}
+.testblock-test .caution-label {font-weight:bold; color:#FF3300; margin-bottom:0px; margin-top:0px; margin-left:10px; font-family:"Verdana", "Arial";}
+.testblock-test .notice {}
+.testblock-test .notice-label {}
+.testblock-test .note {font-weight:bold; color:#0066CC; margin-bottom:0px; margin-top:0px; margin-left:10px; font-family:"Verdana", "Arial";}
+.testblock-test .note-label {font-weight:bold; color:#0066CC; margin-bottom:0px; margin-top:0px; margin-left:10px; font-family:"Verdana", "Arial";}
+.coltext {margin-top:10 px; margin-bottom:10 px; margin-left:25 px; font-family:"Verdana", "Arial";}
+.col1 {font-weight:bold; font-size:10pt; font-family:"Verdana", "Arial";}
+.col2 {font-size:10pt; font-weight:bold; font-family:"Verdana", "Arial";}
+.caption {font-weight:bold; margin-bottom:0pt; margin-top:0pt; font-family:"Verdana", "Arial";}
+.diagcond-header { }
+.diagcond {margin-top:10 px; margin-left:20 px; margin-bottom:10 px; font-size:10pt; font-family:"Verdana", "Arial";}
+.diagtest {margin-top:10 px; margin-left:20 px; margin-bottom:10 px; font-size:10pt; font-family:"Verdana", "Arial";}
+.testblock-header {text-align:center; background-color:#FFCC99; font-size:10pt; font-family:"Verdana", "Arial";}
+.testblock-content {font-size:10pt; background-color:#FFFFCC; font-family:"Verdana", "Arial";}
+.test {margin-left:10px; font-family:"Verdana", "Arial";}
+.ques { }
+.res { }
+.act { }
+.question { }
+.result { }
+.toptitle {font-size:11pt; color:#666666; font-weight:bold; padding:2px 2px; margin-left:0px; line-height:1.5em; margin:0pt; font-family:"Verdana", "Arial";}
+.title-diagchart {font-weight:bold; margin-bottom:0pt; margin-top:0pt; font-family:"Verdana", "Arial";}
+.title-entry {font-weight:bold; font-family:"Verdana", "Arial";}
+.title-figblock {font-weight:bold; margin-bottom:0pt; margin-top:0pt; font-family:"Verdana", "Arial";}
+.title-list1 {font-weight:bold; margin-bottom:0pt; margin-top:0pt; font-family:"Verdana", "Arial";}
+.title-list2 {font-weight:bold; margin-bottom:0pt; margin-top:0pt; font-family:"Verdana", "Arial";}
+.title-shortcat { }
+.title-sicat { }
+.title-sigroup { }
+.title-si {font-size:11pt; font-weight:bold; padding:2px 2px; background-color:#D7E1EE; border:#9CAEC6 solid; border-width:2px 0px; margin :0pt; font-family:"Verdana", "Arial";}
+.sitopic-normal {font-size:10pt; font-weight:bold; margin-bottom:0pt; margin-top:0.5em; margin-left:0px; font-family:"Verdana", "Arial";}
+.sitopic-num { }
+.sitopic-bullet {font-size:10pt; font-weight:bold; margin-bottom:0pt; margin-top:0.5em; margin-left:-10px; font-family:"Verdana", "Arial";}
+.title-specblock {font-weight:bold; color:#339966; margin-top:0px; margin-bottom:0px; font-family:"Verdana", "Arial";}
+.title-specblock-diag {font-size:10pt; font-family:"Verdana", "Arial";}
+.title-specblock-table {font-size:10pt; font-family:"Verdana", "Arial";}
+.title-ssi  {font-size:10pt; margin-left: 0px; font-weight:bold; margin-top:0.5 em; margin-bottom:0pt; font-family:"Verdana", "Arial";}
+.title-tableblock{font-weight:bold; font-family:"Verdana", "Arial"; font-size:10pt; margin-left:0pt; text-align: left}
+.title-tablenote {font-weight:bold; font-family:"Verdana", "Arial";}
+.title-testblock {font-weight:bold; margin-bottom:0pt; margin-top:0pt; font-family:"Verdana", "Arial";}
+.title-stitle {font-weight:bold; font-family:"Verdana", "Arial";}
+.pdficon {margin-bottom:5px; font-family:"Verdana", "Arial";}
+.graphic-block { }
+.graphic {margin-top:10 px; margin-bottom:0 px; margin-left:25 px; font-family:"Verdana", "Arial";}
+.list1  {margin-left:0px; font-family:"Verdana", "Arial";}
+.act .list1 .note .list2 {margin-left:0px; font-family:"Verdana", "Arial";}
+.act .list1 .caution .list2 {margin-left:0px; font-family:"Verdana", "Arial";}
+.act .list1 .warning .list2 {margin-left:0px; font-family:"Verdana", "Arial";}
+.res .list1 .note .list2 {margin-left:0px; font-family:"Verdana", "Arial";}
+.res .list1 .caution .list2 {margin-left:0px; font-family:"Verdana", "Arial";}
+.res .list1 .warning .list2 {margin-left:0px; font-family:"Verdana", "Arial";}
+.graphic-wiring {margin-bottom:0px; font-family:"Verdana", "Arial";}
+.pdf-graphic-block {margin-top:10px; margin-left:25px; padding:5px; width:535px; border:#9CAEC6 solid 1px;}
+.list2{margin-left:15px; font-family:"Verdana", "Arial";}
+.list3 {margin-left:30px; font-family:"Verdana", "Arial";}
+.list4 {margin-left:45px; font-family:"Verdana", "Arial";}
+.list5{ }
+.list1-num{ }
+.list2-num{ }
+.list3-num{ }
+.list4-num{ }
+.list5-num{ }
+.step1 {margin-left:15px; font-family:"Verdana", "Arial";}
+.step2 {margin-left:30px; font-family:"Verdana", "Arial";}
+.step3 {margin-left:45px; font-family:"Verdana", "Arial";}
+.step4 {margin-left:60px; font-family:"Verdana", "Arial";}
+.step5 {margin-left:75px; font-family:"Verdana", "Arial";}
+.step1-num {font-size:11 pt; font-weight:bold; font-style:italic; color:#003399; font-family:"Verdana", "Arial";}
+.step2-num{ }
+.step3-num{ }
+.step4-num{ }
+.step5-num{ }
+.test1 {margin-left:15px; font-family:"Verdana", "Arial";}
+.test2 {margin-left:15px; font-family:"Verdana", "Arial";}
+.test3 {margin-left:15px; font-family:"Verdana", "Arial";}
+.test4 {margin-left:15px; font-family:"Verdana", "Arial";}
+.test1-num { }
+.test2-num { }
+.test3-num { }
+.test4-num { }
+.testnum { }
+.specblock {font-size:10pt; color:#339966; margin-left:25 px; font-family:"Verdana", "Arial";}
+.si-body .specblock {font-size:10pt; color:#339966; margin-left:0 px; font-family:"Verdana", "Arial";}
+.testblock-test .test1 .specblock {font-size:10pt; color:#339966; margin-left:10px; font-family:"Verdana", "Arial";}
+
+.specpara {margin-left:15px; font-family:"Verdana", "Arial";}
+.spectext1-bold {font-weight:bold; font-style:normal; margin-top:0px; margin-bottom:0px; margin-left:0px; font-family:"Verdana", "Arial";}
+.spectext1-normal  {font-weight:normal; font-style:normal; margin-top:0px; margin-bottom:0px; font-family:"Verdana", "Arial";}
+.spectext2-normal {font-weight:normal; font-style:normal; margin-top:0px; margin-bottom:0px; font-family:"Verdana", "Arial";}
+.spectext {font-weight:normal; font-style:normal; margin-top:0px; margin-bottom:0px; font-family:"Verdana", "Arial";}
+.testblock-test-content{ }
+.testblock-title-testblock {font-weight:bold; text-align:center; background-color:#999966; font-family:"Verdana", "Arial";}
+.testblock-question-content {font-size:10 pt; line-height:1.5em; text-align:left; background-color:#FFFFCC; font-family:"Verdana", "Arial";}
+.testblock-content-question {font-size:10 pt; line-height:1.5em; text-align:left; background-color:#FFFFCC; font-family:"Verdana", "Arial";}
+.testblock-label-question {font-size:10 pt; text-align:center; background-color:#999966; font-family:"Verdana", "Arial";}
+.testblock-label-yes {font-size:10 pt; text-align:center; background-color:#999966; font-family:"Verdana", "Arial";}
+.testblock-label-no {font-size:10 pt; text-align:center; background-color:#999966; font-family:"Verdana", "Arial";}
+.testblock-content-yes {font-size:10 pt; line-height:1.5em; text-align:left; background-color:#FFFFCC; font-family:"Verdana", "Arial";}
+.testblock-content-no {font-size:10 pt; line-height:1.5em; text-align:left; background-color:#FFFFCC; font-family:"Verdana", "Arial";}
+.topic {margin-left:15px; font-family:"Verdana", "Arial";}
+.table {margin-top:15 px; margin-left:25 px; margin-bottom:15 px; font-family:"Verdana", "Arial";}
+.thead {font-size:10pt; padding:1pt; font-weight:bold; font-family:"Verdana", "Arial";}
+.tbody {font-size:10pt; padding:1pt; font-family:"Verdana", "Arial";}
+.table-row {font-size:10pt; font-family:"Verdana", "Arial";}
+.calltable-block {margin-top:3pt; margin-bottom:8pt; font-family:"Verdana", "Arial";}
+.calltable {margin-left:12px; font-size:8 pt; color:#3333CC; font-family:"Verdana", "Arial";}
+.tablenote { margin-left:5px; margin-top:0px; margin-bottom:0px; font-family:"Verdana", "Arial";}
+.tablenote-warning-list1-number {font-size:10pt; margin-top:0px; margin-bottom:0px; font-family:"Verdana", "Arial";}
+.tablenote-caution-list1-number {font-size:10pt; margin-top:0px; margin-bottom:0px; font-family:"Verdana", "Arial";}
+.tablenote-note-list1-number {font-size:10pt; margin-top:0px; margin-bottom:0px; font-family:"Verdana", "Arial";}
+.tablenote-notice-list1-number { }
+.tablenote-warning-list1-nolabel {font-size:10pt; margin-top:0px; margin-bottom:0px; font-family:"Verdana", "Arial";}
+.tablenote-caution-list1-nolabel  {font-size:10pt; margin-top:0px; margin-bottom:0px; font-family:"Verdana", "Arial";}
+.tablenote-note-list1-nolabel {font-size:10pt; margin-top:0px; margin-bottom:0px; font-family:"Verdana", "Arial";}
+.tablenote-notice-list1-nolabel { }
+.tablenote-warning-list2-number { }
+.tablenote-caution-list2-number { }
+.tablenote-note-list2-number { }
+.tablenote-notice-list2-number { }
+.tablenote-warning-list2-nolabel { }
+.tablenote-caution-list2-nolabel  { }
+.tablenote-note-list2-nolabel { }
+.tablenote-notice-list2-nolabel { }
+.tablenote-warning-list3-number { }
+.tablenote-caution-list3-number { }
+.tablenote-note-list3-number { }
+.tablenote-notice-list3-number { }
+.tablenote-warning-list3-nolabel { }
+.tablenote-caution-list3-nolabel  { }
+.tablenote-note-list3-nolabel { }
+.tablenote-notice-list3-nolabel { }
+.tablenote-warning-list1-number-para {font-size:10pt; margin-top:0px; margin-bottom:0px; font-family:"Verdana", "Arial";}
+.tablenote-caution-list1-number-para { }
+.tablenote-note-list1-number-para { font-size:10pt; margin-top:0px; margin-bottom:0px; font-family:"Verdana", "Arial";}
+.tablenote-notice-list1-number-para { }
+.tablenote-warning-list1-nolabel-para {font-size:10pt; margin-top:0px; margin-bottom:0px; font-family:"Verdana", "Arial";}
+.tablenote-caution-list1-nolabel-para {}
+.tablenote-note-list1-nolabel-para { font-size:10pt; margin-top:0px; margin-bottom:0px; font-family:"Verdana", "Arial";}
+.tablenote-notice-list1-nolabel-para { }
+.tablenote-warning-list2-number-para { }
+.tablenote-caution-list2-number-para { }
+.tablenote-note-list2-number-para { }
+.tablenote-notice-list2-number-para { }
+.tablenote-warning-list2-nolabel-para { }
+.tablenote-caution-list2-nolabel-para { }
+.tablenote-note-list2-nolabel-para { }
+.tablenote-notice-list2-nolabel-para { }
+.tablenote-warning-list3-number-para { }
+.tablenote-caution-list3-number-para { }
+.tablenote-note-list3-number-para { }
+.tablenote-notice-list3-number-para { }
+.tablenote-warning-list3-nolabel-para { }
+.tablenote-caution-list3-nolabel-para { }
+.tablenote-note-list3-nolabel-para { }
+.tablenote-notice-list3-nolabel-para { }
+.torquedata-head {font-weight:bold; font-style:italic; font-family:"Verdana", "Arial";}
+.torquedata {font-weight:bold; font-style:italic; margin-left:10pt; font-family:"Verdana", "Arial";}
+.torquedata-para {font-weight:bold; font-style:italic; margin-left:10pt; font-family:"Verdana", "Arial";}
+.ptext {font-size:10pt; margin-top:0pt; margin-bottom:0pt; font-family:"Verdana", "Arial";}
+.act-ptext { font-size:10pt; margin-top:0pt; margin-bottom:0pt; font-family:"Verdana", "Arial";}
+.caution-ptext { font-size:10pt; margin-top:0pt; margin-bottom:0pt; font-family:"Verdana", "Arial";}
+.cond-ptext {font-size:10pt; margin-top:0pt; margin-bottom:0pt; font-family:"Verdana", "Arial";}
+.entry-ptext {font-size:10pt; line-height:1.5em; margin-top:0pt; margin-bottom:0pt; font-family:"Verdana", "Arial";}
+.entry-ptext-para {font-size:10pt; line-height:1.5em; margin-top:0pt; margin-bottom:0pt; font-family:"Verdana", "Arial";}
+.calltable .entry-ptext  {font-size:10pt; line-height:1.5em; margin-top:0pt; margin-bottom:0pt; font-family:"Verdana", "Arial";}
+.tbody .list1-ptext {font-size:10pt; line-height:1.5em; margin-top:0pt; margin-bottom:0pt; font-family:"Verdana", "Arial";}
+.tbody .list1-ptext-para {font-size:10pt; line-height:1.5em; margin-top:0pt; margin-bottom:0pt; font-family:"Verdana", "Arial";}
+.tbody .list2-ptext { }
+.tbody .list2-ptext-para { }
+.list1-ptext {font-size:10pt; margin-top:0pt; margin-bottom:0pt; font-family:"Verdana", "Arial";}
+.list2-ptext {font-size:10pt; margin-top:0pt; margin-bottom:0pt; font-family:"Verdana", "Arial";}
+.list3-ptext {font-size:10pt; margin-top:0pt; margin-bottom:0pt; font-family:"Verdana", "Arial";}
+.list4-ptext {font-size:10pt; margin-top:0pt; margin-bottom:0pt; font-family:"Verdana", "Arial";}
+.no-ptext  {font-size:10pt; margin-top:0pt; margin-bottom:0pt; font-family:"Verdana", "Arial";}
+.note-ptext {font-size:10pt; margin-top:0pt; margin-bottom:0pt; font-family:"Verdana", "Arial";}
+.notice-ptext {font-size:10pt; margin-top:0pt; margin-bottom:0pt; font-family:"Verdana", "Arial";}
+.psrc-ptext  {font-size:10pt; margin-top:0pt; margin-bottom:0pt; font-family:"Verdana", "Arial";}
+.si-ptext {font-size:10pt; margin-top:0pt; margin-bottom:0pt; font-family:"Verdana", "Arial";}
+.sitopic-ptext {font-size:10pt; margin-top:0pt; margin-bottom:0pt; font-family:"Verdana", "Arial";}
+.specblock-ptext  { font-weight:bold; font-size:10pt; margin-top:0pt; margin-bottom:0pt; font-family:"Verdana", "Arial";}
+.ssi-ptext  {font-size:10pt; margin-top:0pt; margin-bottom:0pt; font-family:"Verdana", "Arial";}
+.step1-ptext  {font-size:10pt; margin-top:0pt; margin-bottom:0pt; font-family:"Verdana", "Arial";}
+.step2-ptext  {font-size:10pt; margin-top:0pt; margin-bottom:0pt; font-family:"Verdana", "Arial";}
+.step3-ptext  {font-size:10pt; margin-top:0pt; margin-bottom:0pt; font-family:"Verdana", "Arial";}
+.step4-ptext  {font-size:10pt; margin-top:0pt; margin-bottom:0pt; font-family:"Verdana", "Arial";}
+.step5-ptext  {font-size:10pt; margin-top:0pt; margin-bottom:0pt; font-family:"Verdana", "Arial";}
+.t1-ptext  {font-size:10pt; margin-top:0pt; margin-bottom:0pt; font-family:"Verdana", "Arial";}
+.t2-ptext  {font-size:10pt; margin-top:0pt; margin-bottom:0pt; font-family:"Verdana", "Arial";}
+.t3-ptext  {font-size:10pt; margin-top:0pt; margin-bottom:0pt; font-family:"Verdana", "Arial";}
+.t4-ptext  {font-size:10pt; margin-top:0pt; margin-bottom:0pt; font-family:"Verdana", "Arial";}
+.tableblock-ptext  {font-size:10pt; margin-top:0pt; margin-bottom:0pt; font-family:"Verdana", "Arial";}
+.tablenote-ptext  {font-size:10pt; margin-top:0pt; margin-bottom:0pt; font-family:"Verdana", "Arial";}
+.testblock-ptext  {font-size:10pt; margin-top:0pt; margin-bottom:0pt; font-family:"Verdana", "Arial";}
+.warning-ptext  {font-size:10pt; margin-top:0pt; margin-bottom:0pt; font-family:"Verdana", "Arial";}
+.yes-ptext  {font-size:10pt; margin-top:0pt; margin-bottom:0pt; font-family:"Verdana", "Arial";}
+.act-ptext-para {font-size:10pt; margin-top:0pt; margin-bottom:0pt; font-family:"Verdana", "Arial";}
+.caution-ptext-para { font-size:10pt; margin-top:0pt; margin-bottom:0pt; font-family:"Verdana", "Arial";}
+.cond-ptext-para {font-size:10pt; margin-top:0pt; margin-bottom:0pt; font-family:"Verdana", "Arial";}
+.list1-ptext-para {font-size:10pt; margin-top:0pt; margin-bottom:0pt; font-family:"Verdana", "Arial";}
+.list2-ptext-para {font-size:10pt; margin-top:0pt; margin-bottom:0pt; font-family:"Verdana", "Arial";}
+.list3-ptext-para {font-size:10pt; margin-top:0pt; margin-bottom:0pt; font-family:"Verdana", "Arial";}
+.list4-ptext-para  {font-size:10pt; margin-top:0pt; margin-bottom:0pt; font-family:"Verdana", "Arial";}
+.no-ptext-para  {font-size:10pt; margin-top:0pt; margin-bottom:0pt; font-family:"Verdana", "Arial";}
+.note-ptext-para  {font-size:10pt; margin-top:0pt; margin-bottom:0pt; font-family:"Verdana", "Arial";}
+.notice-ptext-para  {font-size:10pt; margin-top:0pt; margin-bottom:0pt; font-family:"Verdana", "Arial";}
+.psrc-ptext-para { font-size:10pt; margin-top:0pt; margin-bottom:0pt; font-family:"Verdana", "Arial";}
+.si-ptext-para  {font-size:10pt; margin-top:0pt; margin-bottom:0pt; font-family:"Verdana", "Arial";}
+.sitopic-ptext-para { font-size:10pt; margin-top:0pt; margin-bottom:0pt; font-family:"Verdana", "Arial";}
+.specblock-ptext-para  {font-weight:bold; font-size:10pt; margin-top:0pt; margin-bottom:0pt; font-family:"Verdana", "Arial";}
+.ssi-ptext-para  { font-size:10pt; margin-top:0pt; margin-bottom:0pt; font-family:"Verdana", "Arial";}
+.step1-ptext-para { font-size:10pt; margin-top:0pt; margin-bottom:0pt; font-family:"Verdana", "Arial";}
+.step2-ptext-para {font-size:10pt; margin-top:0pt; margin-bottom:0pt; font-family:"Verdana", "Arial";}
+.step3-ptext-para { font-size:10pt; margin-top:0pt; margin-bottom:0pt; font-family:"Verdana", "Arial";}
+.step4-ptext-para { font-size:10pt; margin-top:0pt; margin-bottom:0pt; font-family:"Verdana", "Arial";}
+.step5-ptext-para { font-size:10pt; margin-top:0pt; margin-bottom:0pt; font-family:"Verdana", "Arial";}
+.t1-ptext-para {font-size:10pt; margin-top:0pt; margin-bottom:0pt; font-family:"Verdana", "Arial";}
+.t2-ptext-para  {font-size:10pt; margin-top:0pt; margin-bottom:0pt; font-family:"Verdana", "Arial";}
+.t3-ptext-para  {font-size:10pt; margin-top:0pt; margin-bottom:0pt; font-family:"Verdana", "Arial";}
+.t4-ptext-para  {font-size:10pt; margin-top:0pt; margin-bottom:0pt; font-family:"Verdana", "Arial";}
+.tableblock-ptext-para  { font-size:10pt; margin-top:0pt; margin-bottom:0pt; font-family:"Verdana", "Arial";}
+.tablenote-ptext-para  { font-size:10pt; margin-top:0pt; margin-bottom:0pt; padding:0pt; font-family:"Verdana", "Arial";}
+.testblock-ptext-para  { font-size:10pt; margin-top:0pt; margin-bottom:0pt; font-family:"Verdana", "Arial";}
+.warning-ptext-para  { font-size:10pt; margin-top:0pt; margin-bottom:0pt; font-family:"Verdana", "Arial";}
+.yes-ptext-para  { font-size:10pt; margin-top:0pt; margin-bottom:0pt; font-family:"Verdana", "Arial";}
+emphasis {font-weight:bold; font-family:"Verdana", "Arial";}
+.bold { font-weight:bold; font-family:"Verdana", "Arial";}
+.italic {font-style:italic; font-family:"Verdana", "Arial";}
+.bolditalic {font-weight:bold; font-style:italic; font-family:"Verdana", "Arial";}
+.underline {text-decoration:underline; font-family:"Verdana", "Arial";}
+.smallcaps {font-variant:small-caps; font-family:"Verdana", "Arial";}
+.plain { }
+.overline {text-decoration:line-through; font-family:"Verdana", "Arial";}
+.strikethrough {text-decoration:overline; font-family:"Verdana", "Arial";}
+.testblock-body {font-size:10pt; line-height:1.5em; font-family:"Verdana", "Arial";}
+.testblock-title-testblock {font-weight:bold; font-size:10pt; background-color:#999966; font-family:"Verdana", "Arial";}
+.testblock-label-question {font-weight:bold; font-size:10pt; background-color:#999966; font-family:"Verdana", "Arial";}
+.testblock-label-yes {font-weight:bold; font-size:10pt; background-color:#999966; text-align:center; font-family:"Verdana", "Arial";}
+.testblock-label-no {font-weight:bold; font-size:10pt; background-color:#999966; text-align:center; font-family:"Verdana", "Arial";}
+.testblock-test { font-size:10 pt; line-height:1.5em; background-color:#FFFFCC; font-family:"Verdana", "Arial";}
+.testblock-question {font-size:10 pt; line-height:1.5em; text-align:left; background-color:#FFFFCC; font-family:"Verdana", "Arial";}
+.testblock-yes {font-size:10 pt; line-height:1.5em; text-align:left; background-color:#FFFFCC; font-family:"Verdana", "Arial";}
+.testblock-no { font-size:10 pt; line-height:1.5em; text-align:left; background-color:#FFFFCC; font-family:"Verdana", "Arial";}
+.testblock-question-block {margin-top:10px; font-family:"Verdana", "Arial";}
+.testblock { margin-left:15px; font-family:"Verdana", "Arial";}
+.testblock-test-block { }
+.symbol {font-family:symbol; }
+.xreficon {margin-top:1pt;}

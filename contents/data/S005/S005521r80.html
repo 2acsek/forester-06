@@ -1,0 +1,154 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>VEHICLE DYNAMICS CONTROL (VDC) (DIAGNOSTICS) &gt; Diagnostic Procedure with Diagnostic Trouble Code (DTC) &gt; DTC 74 SECONDARY PRESSURE SENSOR OFFSET IS TOO BIG</title>
+<link rel="stylesheet" href="../subaru.css" type="text/css">
+<script language="JavaScript" type="text/JavaScript" src="../honbun.js"></script>
+</head>
+<body class="si-body">
+<p class="toptitle">VEHICLE DYNAMICS CONTROL (VDC) (DIAGNOSTICS) &gt; Diagnostic Procedure with Diagnostic Trouble Code (DTC)</p>
+<p class="title-si"><a name="S005521r80"></a>DTC 74 SECONDARY PRESSURE SENSOR OFFSET IS TOO BIG</p>
+<div class="si-body">
+<p class="si-ptext"><span class="bold">DTC DETECTING CONDITION:</span></p>
+<p class="si-ptext-para">Pressure sensor malfunction</p>
+<p class="si-ptext-para"><span class="bold">TROUBLE SYMPTOM:</span></p>
+<div class="list1">
+<p class="list1-ptext"><span class="list1-num">&bull;  </span>ABS does not operate.</p>
+<p class="list1-ptext"><span class="list1-num">&bull;  </span>VDC does not operate.</p>
+</div>
+<p class="si-ptext-para"><span class="bold">WIRING DIAGRAM:</span></p>
+<div class="list1">
+<p class="list1-ptext"><span class="list1-num">&bull;  </span>LHD model</p>
+<div class="pdf-graphic-block">
+<p class="pdficon"><a href="javascript:openPDF('vdc00443e.pdf')"><img src="../../image/pdficon.gif" border="0"></a></p>
+<p class="graphic-wiring"><img src="../grph_ent/vdc00443e.png">
+</p></div>
+<p class="list1-ptext"><span class="list1-num">&bull;  </span>RHD model</p>
+<div class="pdf-graphic-block">
+<p class="pdficon"><a href="javascript:openPDF('vdc00444e.pdf')"><img src="../../image/pdficon.gif" border="0"></a></p>
+<p class="graphic-wiring"><img src="../grph_ent/vdc00444e.png">
+</p></div>
+</div>
+<div class="diagtest">
+<table frame="all" border=1 cellspacing=0 cellpadding=2>
+<thead>
+<tr class="testblock-header"><td>STEP</td><td>CHECK</td><td>YES</td><td>NO</td></tr>
+</thead>
+<tbody>
+<tr valign="top" class="testblock-content">
+<td>
+<div class="test">
+<p class="title-testblock"><a name="S005521r80t01"></a><span class="testnum">1.</span>CHECK USER DRIVING METHOD.</p>
+<p class="testblock-ptext">Interview the user about their driving habits.</p>
+</div>
+</td>
+<td>
+<div class="ques">
+<p class="question">Are the acceleration pedal and brake pedal depressed simultaneously while driving?</p>
+</div>
+</td>
+<td>
+<div class="res">
+<div class="list1">
+<p class="list1-ptext"><span class="list1-num"></span>Erase the normal DTC for the VDC.</p>
+<p class="note-label">NOTE:</p>
+<div class="note">
+<p class="note-ptext">If the vehicle is driven while both the accelerator pedal and brake pedal are used, the DTC is sometimes stored in memory.</p>
+</div>
+</div>
+</div>
+</td>
+<td>
+<div class="act">
+<p class="no-ptext"><a href="Javascript:go('S005521r80t02');" title="VEHICLE DYNAMICS CONTROL (VDC) (DIAGNOSTICS) > Diagnostic Procedure with Diagnostic Trouble Code (DTC) > DTC 74 SECONDARY PRESSURE SENSOR OFFSET IS TOO BIG"><img class="xreficon" src="../image/btn_link.gif" border="0" align="absmiddle"></a></p>
+</div>
+</td>
+</tr>
+<tr valign="top" class="testblock-content">
+<td>
+<div class="test">
+<p class="title-testblock"><a name="S005521r80t02"></a><span class="testnum">2.</span>CHECK OUTPUT OF THE PRESSURE SENSOR USING SUBARU SELECT MONITOR.</p>
+<div class="test1">
+<p class="t1-ptext"><span class="t1-num">1) </span>Select {Current Data Display &amp; Save} in Subaru Select Monitor.</p>
+</div>
+<div class="test1">
+<p class="t1-ptext"><span class="t1-num">2) </span>Read the pressure sensor output on the Subaru Select Monitor display.</p>
+</div>
+</div>
+</td>
+<td>
+<div class="ques">
+<p class="question">Is the output value 0.6&plusmn;0.12 V when the brake pedal is not depressed?</p>
+</div>
+</td>
+<td>
+<div class="res">
+<p class="yes-ptext"><a href="Javascript:go('S005521r80t03');" title="VEHICLE DYNAMICS CONTROL (VDC) (DIAGNOSTICS) > Diagnostic Procedure with Diagnostic Trouble Code (DTC) > DTC 74 SECONDARY PRESSURE SENSOR OFFSET IS TOO BIG"><img class="xreficon" src="../image/btn_link.gif" border="0" align="absmiddle"></a></p>
+</div>
+</td>
+<td>
+<div class="act">
+<p class="no-ptext">Replace the VDCH/U. <a href="Javascript:go('S402044');" title="VEHICLE DYNAMICS CONTROL (VDC) > VDC Hydraulic Control Module (VDCH/U)"><img class="xreficon" src="../image/btn_link.gif" border="0" align="absmiddle"></a></p>
+</div>
+</td>
+</tr>
+<tr valign="top" class="testblock-content">
+<td>
+<div class="test">
+<p class="title-testblock"><a name="S005521r80t03"></a><span class="testnum">3.</span>CHECK VDCCM.</p>
+<div class="test1">
+<p class="t1-ptext"><span class="t1-num">1) </span>Connect all connectors.</p>
+</div>
+<div class="test1">
+<p class="t1-ptext"><span class="t1-num">2) </span>Erase the memory.</p>
+</div>
+<div class="test1">
+<p class="t1-ptext"><span class="t1-num">3) </span>Perform the Inspection Mode.</p>
+</div>
+<div class="test1">
+<p class="t1-ptext"><span class="t1-num">4) </span>Read the DTC.</p>
+</div>
+</div>
+</td>
+<td>
+<div class="ques">
+<p class="question">In the current diagnosis, is the same DTC displayed again?</p>
+</div>
+</td>
+<td>
+<div class="res">
+<p class="yes-ptext">Replace the VDCCM. <a href="Javascript:go('S402045');" title="VEHICLE DYNAMICS CONTROL (VDC) > VDC Control Module (VDCCM)"><img class="xreficon" src="../image/btn_link.gif" border="0" align="absmiddle"></a></p>
+</div>
+</td>
+<td>
+<div class="act">
+<p class="no-ptext"><a href="Javascript:go('S005521r80t04');" title="VEHICLE DYNAMICS CONTROL (VDC) (DIAGNOSTICS) > Diagnostic Procedure with Diagnostic Trouble Code (DTC) > DTC 74 SECONDARY PRESSURE SENSOR OFFSET IS TOO BIG"><img class="xreficon" src="../image/btn_link.gif" border="0" align="absmiddle"></a></p>
+</div>
+</td>
+</tr>
+<tr valign="top" class="testblock-content">
+<td>
+<div class="test">
+<p class="title-testblock"><a name="S005521r80t04"></a><span class="testnum">4.</span>CHECK ANY OTHER DTC ON DISPLAY.</p>
+</div>
+</td>
+<td>
+<div class="ques">
+<p class="question">Are other DTCs displayed?</p>
+</div>
+</td>
+<td>
+<div class="res">
+<p class="yes-ptext">Go to the diagnosis corresponding to the DTC.</p>
+</div>
+</td>
+<td>
+<div class="act">
+<p class="no-ptext">Temporary poor contact occurs.</p>
+</div>
+</td>
+</tr>
+</tbody></table></div>
+</div>
+</body>
+</html>

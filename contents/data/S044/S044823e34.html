@@ -1,0 +1,639 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>AUTOMATIC TRANSMISSION (DIAGNOSTICS)(4AT)(D) &gt; Diagnostic Procedure for Subaru Select Monitor Communication &gt; COMMUNICATION FOR INITIALIZING IMPOSSIBLE</title>
+<link rel="stylesheet" href="../subaru.css" type="text/css">
+<script language="JavaScript" type="text/JavaScript" src="../honbun.js"></script>
+</head>
+<body class="si-body">
+<p class="toptitle">AUTOMATIC TRANSMISSION (DIAGNOSTICS)(4AT)(D) &gt; Diagnostic Procedure for Subaru Select Monitor Communication</p>
+<p class="title-si"><a name="S044823e34"></a>COMMUNICATION FOR INITIALIZING IMPOSSIBLE</p>
+<div class="si-body">
+<p class="si-ptext"><span class="bold">DIAGNOSIS:</span></p>
+<p class="si-ptext-para">Defective harness connector</p>
+<p class="si-ptext-para"><span class="bold">TROUBLE SYMPTOM:</span></p>
+<p class="si-ptext-para">Subaru Select Monitor communication failure</p>
+<p class="si-ptext-para"><span class="bold">WIRING DIAGRAM:</span></p>
+<div class="pdf-graphic-block">
+<p class="pdficon"><a href="javascript:openPDF('at-03702e.pdf')"><img src="../../image/pdficon.gif" border="0"></a></p>
+<p class="graphic-wiring"><img src="../grph_ent/at-03702e.png">
+</p></div>
+<div class="diagtest">
+<table frame="all" border=1 cellspacing=0 cellpadding=2>
+<thead>
+<tr class="testblock-header"><td>STEP</td><td>CHECK</td><td>YES</td><td>NO</td></tr>
+</thead>
+<tbody>
+<tr valign="top" class="testblock-content">
+<td>
+<div class="test">
+<p class="title-testblock"><a name="S044823e34t01"></a><span class="testnum">1.</span>CHECK INSTALLATION OF TCM CONNECTOR.</p>
+<p class="testblock-ptext">Turn the ignition switch to OFF.</p>
+</div>
+</td>
+<td>
+<div class="ques">
+<p class="question">Is the TCM connector connected correctly?</p>
+</div>
+</td>
+<td>
+<div class="res">
+<p class="yes-ptext"><a href="Javascript:go('S044823e34t02');" title="AUTOMATIC TRANSMISSION (DIAGNOSTICS)(4AT)(D) > Diagnostic Procedure for Subaru Select Monitor Communication > COMMUNICATION FOR INITIALIZING IMPOSSIBLE"><img class="xreficon" src="../image/btn_link.gif" border="0" align="absmiddle"></a></p>
+</div>
+</td>
+<td>
+<div class="act">
+<p class="no-ptext">Connect the TCM connector securely.</p>
+</div>
+</td>
+</tr>
+<tr valign="top" class="testblock-content">
+<td>
+<div class="test">
+<p class="title-testblock"><a name="S044823e34t02"></a><span class="testnum">2.</span>CHECK SUBARU SELECT MONITOR POWER SUPPLY CIRCUIT.</p>
+<p class="testblock-ptext">Measure the voltage between data link connector and chassis ground.</p>
+<div class="specblock">
+<p class="specblock-ptext">Connector &amp; terminal</p>
+<div class="specpara">
+<p class="spectext1-normal">(B40) No. 1 (+) &mdash; Chassis ground (&minus;):</p>
+</div>
+</div>
+</div>
+</td>
+<td>
+<div class="ques">
+<p class="question">Is the voltage 10 V or more?</p>
+</div>
+</td>
+<td>
+<div class="res">
+<p class="yes-ptext"><a href="Javascript:go('S044823e34t03');" title="AUTOMATIC TRANSMISSION (DIAGNOSTICS)(4AT)(D) > Diagnostic Procedure for Subaru Select Monitor Communication > COMMUNICATION FOR INITIALIZING IMPOSSIBLE"><img class="xreficon" src="../image/btn_link.gif" border="0" align="absmiddle"></a></p>
+</div>
+</td>
+<td>
+<div class="act">
+<p class="no-ptext">Repair harness connector between the battery and data link connector, and poor contact of the connector.</p>
+</div>
+</td>
+</tr>
+<tr valign="top" class="testblock-content">
+<td>
+<div class="test">
+<p class="title-testblock"><a name="S044823e34t03"></a><span class="testnum">3.</span>CHECK SUBARU SELECT MONITOR GROUND CIRCUIT.</p>
+<div class="test1">
+<p class="t1-ptext"><span class="t1-num">1) </span>Disconnect the connectors from the ECM. (2.5 L model)</p>
+</div>
+<div class="test1">
+<p class="t1-ptext"><span class="t1-num">2) </span>Measure the resistance of harness between the data link connector and ECM or the chassis ground.</p>
+<div class="specblock">
+<p class="specblock-ptext">Connector &amp; terminal</p>
+<div class="specpara">
+<p class="spectext1-bold">2.0 L model</p>
+<p class="spectext2-normal">(B40) No. 12 &mdash; Chassis ground:<br> (B40) No. 13 &mdash; Chassis ground:</p>
+</div>
+<div class="specpara">
+<p class="spectext1-bold">2.5 L model</p>
+<p class="spectext2-normal">(B40) No. 12 &mdash; (B134) No. 6:<br> (B40) No. 12 &mdash; (B134) No. 6:</p>
+</div>
+</div>
+</div>
+</div>
+</td>
+<td>
+<div class="ques">
+<p class="question">Is the resistance less than 1 &#8486;?</p>
+</div>
+</td>
+<td>
+<div class="res">
+<p class="yes-ptext"><a href="Javascript:go('S044823e34t04');" title="AUTOMATIC TRANSMISSION (DIAGNOSTICS)(4AT)(D) > Diagnostic Procedure for Subaru Select Monitor Communication > COMMUNICATION FOR INITIALIZING IMPOSSIBLE"><img class="xreficon" src="../image/btn_link.gif" border="0" align="absmiddle"></a></p>
+</div>
+</td>
+<td>
+<div class="act">
+<p class="no-ptext">Repair the open circuit of harness between data link connector and chassis ground or ECM, and poor contact of connector.</p>
+</div>
+</td>
+</tr>
+<tr valign="top" class="testblock-content">
+<td>
+<div class="test">
+<p class="title-testblock"><a name="S044823e34t04"></a><span class="testnum">4.</span>CHECK ENGINE GROUND CIRCUIT.</p>
+<p class="testblock-ptext">Check the engine ground circuit.</p>
+</div>
+</td>
+<td>
+<div class="ques">
+<p class="question">Is the engine ground circuit normal?</p>
+</div>
+</td>
+<td>
+<div class="res">
+<p class="yes-ptext"><a href="Javascript:go('S044823e34t05');" title="AUTOMATIC TRANSMISSION (DIAGNOSTICS)(4AT)(D) > Diagnostic Procedure for Subaru Select Monitor Communication > COMMUNICATION FOR INITIALIZING IMPOSSIBLE"><img class="xreficon" src="../image/btn_link.gif" border="0" align="absmiddle"></a></p>
+</div>
+</td>
+<td>
+<div class="act">
+<p class="no-ptext">Repair ground circuit of ECM.</p>
+</div>
+</td>
+</tr>
+<tr valign="top" class="testblock-content">
+<td>
+<div class="test">
+<p class="title-testblock"><a name="S044823e34t05"></a><span class="testnum">5.</span>CHECK COMMUNICATION OF SUBARU SELECT MONITOR.</p>
+<div class="test1">
+<p class="t1-ptext"><span class="t1-num">1) </span>Turn the ignition switch to ON.</p>
+</div>
+<div class="test1">
+<p class="t1-ptext"><span class="t1-num">2) </span>Using the Subaru Select Monitor, check whether communication to the transmission system can be executed normally.</p>
+</div>
+</div>
+</td>
+<td>
+<div class="ques">
+<p class="question">Is the name of system displayed on Subaru Select Monitor?</p>
+</div>
+</td>
+<td>
+<div class="res">
+<p class="yes-ptext"><a href="Javascript:go('S044823e34t10');" title="AUTOMATIC TRANSMISSION (DIAGNOSTICS)(4AT)(D) > Diagnostic Procedure for Subaru Select Monitor Communication > COMMUNICATION FOR INITIALIZING IMPOSSIBLE"><img class="xreficon" src="../image/btn_link.gif" border="0" align="absmiddle"></a></p>
+</div>
+</td>
+<td>
+<div class="act">
+<p class="no-ptext"><a href="Javascript:go('S044823e34t06');" title="AUTOMATIC TRANSMISSION (DIAGNOSTICS)(4AT)(D) > Diagnostic Procedure for Subaru Select Monitor Communication > COMMUNICATION FOR INITIALIZING IMPOSSIBLE"><img class="xreficon" src="../image/btn_link.gif" border="0" align="absmiddle"></a></p>
+</div>
+</td>
+</tr>
+<tr valign="top" class="testblock-content">
+<td>
+<div class="test">
+<p class="title-testblock"><a name="S044823e34t06"></a><span class="testnum">6.</span>CHECK COMMUNICATION OF SUBARU SELECT MONITOR.</p>
+<div class="test1">
+<p class="t1-ptext"><span class="t1-num">1) </span>Turn the ignition switch to OFF.</p>
+</div>
+<div class="test1">
+<p class="t1-ptext"><span class="t1-num">2) </span>Disconnect the TCM connector.</p>
+</div>
+<div class="test1">
+<p class="t1-ptext"><span class="t1-num">3) </span>Check whether communication to the engine system, ABS and airbag system can be executed normally.</p>
+</div>
+</div>
+</td>
+<td>
+<div class="ques">
+<p class="question">Is the name of system displayed on Subaru Select Monitor?</p>
+</div>
+</td>
+<td>
+<div class="res">
+<p class="yes-ptext"><a href="Javascript:go('S044823e34t07');" title="AUTOMATIC TRANSMISSION (DIAGNOSTICS)(4AT)(D) > Diagnostic Procedure for Subaru Select Monitor Communication > COMMUNICATION FOR INITIALIZING IMPOSSIBLE"><img class="xreficon" src="../image/btn_link.gif" border="0" align="absmiddle"></a></p>
+</div>
+</td>
+<td>
+<div class="act">
+<p class="no-ptext"><a href="Javascript:go('S044823e34t08');" title="AUTOMATIC TRANSMISSION (DIAGNOSTICS)(4AT)(D) > Diagnostic Procedure for Subaru Select Monitor Communication > COMMUNICATION FOR INITIALIZING IMPOSSIBLE"><img class="xreficon" src="../image/btn_link.gif" border="0" align="absmiddle"></a></p>
+</div>
+</td>
+</tr>
+<tr valign="top" class="testblock-content">
+<td>
+<div class="test">
+<p class="title-testblock"><a name="S044823e34t07"></a><span class="testnum">7.</span>CHECK COMMUNICATION OF SUBARU SELECT MONITOR.</p>
+<div class="test1">
+<p class="t1-ptext"><span class="t1-num">1) </span>Turn the ignition switch to OFF.</p>
+</div>
+<div class="test1">
+<p class="t1-ptext"><span class="t1-num">2) </span>Connect the TCM connector.</p>
+</div>
+<div class="test1">
+<p class="t1-ptext"><span class="t1-num">3) </span>Disconnect the ABS, VDC and airbag connector.</p>
+<p class="caution-label">CAUTION:</p>
+<div class="caution">
+<p class="caution-ptext">Observe the safety precautions before disconnecting the airbag connectors. <a href="Javascript:go('S002001a03');" title="AIRBAG SYSTEM (DIAGNOSTICS) > General Description > CAUTION"><img class="xreficon" src="../image/btn_link.gif" border="0" align="absmiddle"></a></p>
+</div>
+</div>
+<div class="test1">
+<p class="t1-ptext"><span class="t1-num">4) </span>Check whether communication to transmission system can be executed normally.</p>
+</div>
+</div>
+</td>
+<td>
+<div class="ques">
+<p class="question">Is the name of system displayed on Subaru Select Monitor?</p>
+</div>
+</td>
+<td>
+<div class="res">
+<p class="yes-ptext">Inspect the ABS, VDC and airbag module.</p>
+</div>
+</td>
+<td>
+<div class="act">
+<p class="no-ptext"><a href="Javascript:go('S044823e34t20');" title="AUTOMATIC TRANSMISSION (DIAGNOSTICS)(4AT)(D) > Diagnostic Procedure for Subaru Select Monitor Communication > COMMUNICATION FOR INITIALIZING IMPOSSIBLE"><img class="xreficon" src="../image/btn_link.gif" border="0" align="absmiddle"></a></p>
+</div>
+</td>
+</tr>
+<tr valign="top" class="testblock-content">
+<td>
+<div class="test">
+<p class="title-testblock"><a name="S044823e34t20"></a><span class="testnum">8.</span>CHECK HARNESS CONNECTOR BETWEEN EACH CONTROL MODULE AND DATA LINK CONNECTOR.</p>
+<div class="test1">
+<p class="t1-ptext"><span class="t1-num">1) </span>Turn the ignition switch to OFF.</p>
+</div>
+<div class="test1">
+<p class="t1-ptext"><span class="t1-num">2) </span>Disconnect the following TCM connectors.</p>
+</div>
+<div class="test1">
+<p class="t1-ptext"><span class="t1-num">3) </span>Check whether communication to ECM can be executed normally.</p>
+</div>
+</div>
+</td>
+<td>
+<div class="ques">
+<p class="question">Is the name of system displayed on Subaru Select Monitor?</p>
+</div>
+</td>
+<td>
+<div class="res">
+<p class="yes-ptext"><a href="Javascript:go('S044823e34t08');" title="AUTOMATIC TRANSMISSION (DIAGNOSTICS)(4AT)(D) > Diagnostic Procedure for Subaru Select Monitor Communication > COMMUNICATION FOR INITIALIZING IMPOSSIBLE"><img class="xreficon" src="../image/btn_link.gif" border="0" align="absmiddle"></a></p>
+</div>
+</td>
+<td>
+<div class="act">
+<p class="no-ptext">Inspect the ECM.</p>
+</div>
+</td>
+</tr>
+<tr valign="top" class="testblock-content">
+<td>
+<div class="test">
+<p class="title-testblock"><a name="S044823e34t08"></a><span class="testnum">9.</span>CHECK HARNESS CONNECTOR BETWEEN EACH CONTROL MODULE AND DATA LINK CONNECTOR.</p>
+<div class="test1">
+<p class="t1-ptext"><span class="t1-num">1) </span>Turn the ignition switch to OFF.</p>
+</div>
+<div class="test1">
+<p class="t1-ptext"><span class="t1-num">2) </span>Disconnect the connector of ECM.</p>
+</div>
+<div class="test1">
+<p class="t1-ptext"><span class="t1-num">3) </span>Measure the resistance between data link connector and chassis ground.</p>
+<div class="specblock">
+<p class="specblock-ptext">Connector &amp; terminal</p>
+<div class="specpara">
+<p class="spectext1-normal">(B40) No. 10 &mdash; Chassis ground:</p>
+</div>
+</div>
+</div>
+</div>
+</td>
+<td>
+<div class="ques">
+<p class="question">Is the resistance 1 M&#8486; or more?</p>
+</div>
+</td>
+<td>
+<div class="res">
+<p class="yes-ptext"><a href="Javascript:go('S044823e34t09');" title="AUTOMATIC TRANSMISSION (DIAGNOSTICS)(4AT)(D) > Diagnostic Procedure for Subaru Select Monitor Communication > COMMUNICATION FOR INITIALIZING IMPOSSIBLE"><img class="xreficon" src="../image/btn_link.gif" border="0" align="absmiddle"></a></p>
+</div>
+</td>
+<td>
+<div class="act">
+<p class="no-ptext">Check harness and connector between each control module and data link connector.</p>
+</div>
+</td>
+</tr>
+<tr valign="top" class="testblock-content">
+<td>
+<div class="test">
+<p class="title-testblock"><a name="S044823e34t09"></a><span class="testnum">10.</span>CHECK OUTPUT SIGNAL OF TCM.</p>
+<div class="test1">
+<p class="t1-ptext"><span class="t1-num">1) </span>Turn the ignition switch to ON.</p>
+</div>
+<div class="test1">
+<p class="t1-ptext"><span class="t1-num">2) </span>Measure the voltage between data link connector and chassis ground.</p>
+<div class="specblock">
+<p class="specblock-ptext">Connector &amp; terminal</p>
+<div class="specpara">
+<p class="spectext1-normal">(B40) No. 10 (+) &mdash; Chassis ground (&minus;):</p>
+</div>
+</div>
+</div>
+</div>
+</td>
+<td>
+<div class="ques">
+<p class="question">Is the voltage 1 V or more?</p>
+</div>
+</td>
+<td>
+<div class="res">
+<p class="yes-ptext">Check harness and connector between each control module and data link connector.</p>
+</div>
+</td>
+<td>
+<div class="act">
+<p class="no-ptext"><a href="Javascript:go('S044823e34t10');" title="AUTOMATIC TRANSMISSION (DIAGNOSTICS)(4AT)(D) > Diagnostic Procedure for Subaru Select Monitor Communication > COMMUNICATION FOR INITIALIZING IMPOSSIBLE"><img class="xreficon" src="../image/btn_link.gif" border="0" align="absmiddle"></a></p>
+</div>
+</td>
+</tr>
+<tr valign="top" class="testblock-content">
+<td>
+<div class="test">
+<p class="title-testblock"><a name="S044823e34t10"></a><span class="testnum">11.</span>CHECK HARNESS CONNECTOR BETWEEN TCM AND DATA LINK CONNECTOR.</p>
+<p class="testblock-ptext">Measure the resistance between TCM connector and data link connector.</p>
+<div class="specblock">
+<p class="specblock-ptext">Connector &amp; terminal</p>
+<div class="specpara">
+<p class="spectext1-normal">(B54) No. 8 &mdash; (B40) No. 10:</p>
+</div>
+</div>
+</div>
+</td>
+<td>
+<div class="ques">
+<p class="question">Is the resistance less than 1 &#8486;?</p>
+</div>
+</td>
+<td>
+<div class="res">
+<p class="yes-ptext"><a href="Javascript:go('S044823e34t11');" title="AUTOMATIC TRANSMISSION (DIAGNOSTICS)(4AT)(D) > Diagnostic Procedure for Subaru Select Monitor Communication > COMMUNICATION FOR INITIALIZING IMPOSSIBLE"><img class="xreficon" src="../image/btn_link.gif" border="0" align="absmiddle"></a></p>
+</div>
+</td>
+<td>
+<div class="act">
+<p class="no-ptext">Repair the harness and connector between TCM and data link connector.</p>
+</div>
+</td>
+</tr>
+<tr valign="top" class="testblock-content">
+<td>
+<div class="test">
+<p class="title-testblock"><a name="S044823e34t11"></a><span class="testnum">12.</span>CHECK FOR IMPROPER CONNECTION OF TRANSMISSION HARNESS CONNECTOR.</p>
+</div>
+</td>
+<td>
+<div class="ques">
+<p class="question">Is the transmission harness connector connected to bulkhead harness connector correctly?</p>
+</div>
+</td>
+<td>
+<div class="res">
+<p class="yes-ptext"><a href="Javascript:go('S044823e34t12');" title="AUTOMATIC TRANSMISSION (DIAGNOSTICS)(4AT)(D) > Diagnostic Procedure for Subaru Select Monitor Communication > COMMUNICATION FOR INITIALIZING IMPOSSIBLE"><img class="xreficon" src="../image/btn_link.gif" border="0" align="absmiddle"></a></p>
+</div>
+</td>
+<td>
+<div class="act">
+<p class="no-ptext">Connect the bulkhead harness connector to transmission harness connector.</p>
+</div>
+</td>
+</tr>
+<tr valign="top" class="testblock-content">
+<td>
+<div class="test">
+<p class="title-testblock"><a name="S044823e34t12"></a><span class="testnum">13.</span>CHECK POOR CONTACT OF CONNECTORS.</p>
+</div>
+</td>
+<td>
+<div class="ques">
+<p class="question">Is there poor contact in control module power supply and data link connector?</p>
+</div>
+</td>
+<td>
+<div class="res">
+<p class="yes-ptext">Repair the poor contact.</p>
+</div>
+</td>
+<td>
+<div class="act">
+<p class="no-ptext"><a href="Javascript:go('S044823e34t13');" title="AUTOMATIC TRANSMISSION (DIAGNOSTICS)(4AT)(D) > Diagnostic Procedure for Subaru Select Monitor Communication > COMMUNICATION FOR INITIALIZING IMPOSSIBLE"><img class="xreficon" src="../image/btn_link.gif" border="0" align="absmiddle"></a></p>
+</div>
+</td>
+</tr>
+<tr valign="top" class="testblock-content">
+<td>
+<div class="test">
+<p class="title-testblock"><a name="S044823e34t13"></a><span class="testnum">14.</span>CHECK POWER SUPPLY OF TCM.</p>
+<div class="test1">
+<p class="t1-ptext"><span class="t1-num">1) </span>Disconnect the connector from TCM.</p>
+</div>
+<div class="test1">
+<p class="t1-ptext"><span class="t1-num">2) </span>Measure the voltage between TCM connector and chassis ground.</p>
+<div class="specblock">
+<p class="specblock-ptext">Connector &amp; terminal</p>
+<div class="specpara">
+<p class="spectext1-normal">(B54) No. 25 (+) &mdash; Chassis ground (&minus;):</p>
+</div>
+<div class="specpara">
+<p class="spectext1-normal">(B54) No. 26 (+) &mdash; Chassis ground (&minus;):</p>
+</div>
+<div class="specpara">
+<p class="spectext1-normal">(B54) No. 27 (+) &mdash; Chassis ground (&minus;):</p>
+</div>
+</div>
+</div>
+</div>
+</td>
+<td>
+<div class="ques">
+<p class="question">Is the voltage 10 &mdash; 13 V?</p>
+</div>
+</td>
+<td>
+<div class="res">
+<p class="yes-ptext"><a href="Javascript:go('S044823e34t15');" title="AUTOMATIC TRANSMISSION (DIAGNOSTICS)(4AT)(D) > Diagnostic Procedure for Subaru Select Monitor Communication > COMMUNICATION FOR INITIALIZING IMPOSSIBLE"><img class="xreficon" src="../image/btn_link.gif" border="0" align="absmiddle"></a></p>
+</div>
+</td>
+<td>
+<div class="act">
+<p class="no-ptext"><a href="Javascript:go('S044823e34t14');" title="AUTOMATIC TRANSMISSION (DIAGNOSTICS)(4AT)(D) > Diagnostic Procedure for Subaru Select Monitor Communication > COMMUNICATION FOR INITIALIZING IMPOSSIBLE"><img class="xreficon" src="../image/btn_link.gif" border="0" align="absmiddle"></a></p>
+</div>
+</td>
+</tr>
+<tr valign="top" class="testblock-content">
+<td>
+<div class="test">
+<p class="title-testblock"><a name="S044823e34t14"></a><span class="testnum">15.</span>CHECK FUSE (NO. 4).</p>
+<p class="testblock-ptext">Remove the fuse (No. 4).</p>
+</div>
+</td>
+<td>
+<div class="ques">
+<p class="question">Is the fuse (No. 4) blown out?</p>
+</div>
+</td>
+<td>
+<div class="res">
+<p class="yes-ptext">Replace the fuse (No. 4). If the replaced fuse (No. 4) has blown out easily, repair the short circuit of harness between fuse (No. 4) and TCM.</p>
+</div>
+</td>
+<td>
+<div class="act">
+<p class="no-ptext">Repair the open circuit of harness between fuse (No. 4) and TCM, or fuse (No. 4) and battery, and poor contact of the connector.</p>
+</div>
+</td>
+</tr>
+<tr valign="top" class="testblock-content">
+<td>
+<div class="test">
+<p class="title-testblock"><a name="S044823e34t15"></a><span class="testnum">16.</span>CHECK IGNITION POWER SUPPLY CIRCUIT.</p>
+<div class="test1">
+<p class="t1-ptext"><span class="t1-num">1) </span>Turn the ignition switch to ON (engine OFF).</p>
+</div>
+<div class="test1">
+<p class="t1-ptext"><span class="t1-num">2) </span>Measure the ignition power supply voltage between TCM connector and chassis ground.</p>
+<div class="specblock">
+<p class="specblock-ptext">Connector &amp; terminal</p>
+<div class="specpara">
+<p class="spectext1-normal">(B54) No. 1 (+) &mdash; Chassis ground (&minus;):</p>
+</div>
+<div class="specpara">
+<p class="spectext1-normal">(B54) No. 2 (+) &mdash; Chassis ground (&minus;):</p>
+</div>
+</div>
+</div>
+</div>
+</td>
+<td>
+<div class="ques">
+<p class="question">Is the voltage 10 &mdash; 13 V?</p>
+</div>
+</td>
+<td>
+<div class="res">
+<p class="yes-ptext"><a href="Javascript:go('S044823e34t17');" title="AUTOMATIC TRANSMISSION (DIAGNOSTICS)(4AT)(D) > Diagnostic Procedure for Subaru Select Monitor Communication > COMMUNICATION FOR INITIALIZING IMPOSSIBLE"><img class="xreficon" src="../image/btn_link.gif" border="0" align="absmiddle"></a></p>
+</div>
+</td>
+<td>
+<div class="act">
+<p class="no-ptext"><a href="Javascript:go('S044823e34t16');" title="AUTOMATIC TRANSMISSION (DIAGNOSTICS)(4AT)(D) > Diagnostic Procedure for Subaru Select Monitor Communication > COMMUNICATION FOR INITIALIZING IMPOSSIBLE"><img class="xreficon" src="../image/btn_link.gif" border="0" align="absmiddle"></a></p>
+</div>
+</td>
+</tr>
+<tr valign="top" class="testblock-content">
+<td>
+<div class="test">
+<p class="title-testblock"><a name="S044823e34t16"></a><span class="testnum">17.</span>CHECK FUSE (NO. 12).</p>
+<p class="testblock-ptext">Remove the fuse (No. 11).</p>
+</div>
+</td>
+<td>
+<div class="ques">
+<p class="question">Is the fuse (No. 11) blown out?</p>
+</div>
+</td>
+<td>
+<div class="res">
+<p class="yes-ptext">Replace the fuse (No. 11). If the replaced fuse (No. 11) has blown out easily, repair the short circuit of harness between fuse (No. 11) and TCM.</p>
+</div>
+</td>
+<td>
+<div class="act">
+<p class="no-ptext">Repair the open circuit of harness between fuse (No. 11) and TCM, or fuse (No. 11) and battery, and poor contact of the connector.</p>
+</div>
+</td>
+</tr>
+<tr valign="top" class="testblock-content">
+<td>
+<div class="test">
+<p class="title-testblock"><a name="S044823e34t17"></a><span class="testnum">18.</span>CHECK HARNESS CONNECTOR BETWEEN TCM AND TRANSMISSION.</p>
+<div class="test1">
+<p class="t1-ptext"><span class="t1-num">1) </span>Turn the ignition switch to OFF.</p>
+</div>
+<div class="test1">
+<p class="t1-ptext"><span class="t1-num">2) </span>Disconnect the connectors from TCM and transmission.</p>
+</div>
+<div class="test1">
+<p class="t1-ptext"><span class="t1-num">3) </span>Measure the resistance of harness between TCM and transmission connector.</p>
+<div class="specblock">
+<p class="specblock-ptext">Connector &amp; terminal</p>
+<div class="specpara">
+<p class="spectext1-normal">(B54) No. 22 &mdash; (B11) No. 19:</p>
+</div>
+<div class="specpara">
+<p class="spectext1-normal">(B54) No. 23 &mdash; (B11) No. 19:</p>
+</div>
+<div class="specpara">
+<p class="spectext1-normal">(B54) No. 20 &mdash; (B11) No. 20:</p>
+</div>
+<div class="specpara">
+<p class="spectext1-normal">(B54) No. 21 &mdash; (B11) No. 20:</p>
+</div>
+</div>
+</div>
+</div>
+</td>
+<td>
+<div class="ques">
+<p class="question">Is the resistance less than 1 &#8486;?</p>
+</div>
+</td>
+<td>
+<div class="res">
+<p class="yes-ptext"><a href="Javascript:go('S044823e34t18');" title="AUTOMATIC TRANSMISSION (DIAGNOSTICS)(4AT)(D) > Diagnostic Procedure for Subaru Select Monitor Communication > COMMUNICATION FOR INITIALIZING IMPOSSIBLE"><img class="xreficon" src="../image/btn_link.gif" border="0" align="absmiddle"></a></p>
+</div>
+</td>
+<td>
+<div class="act">
+<p class="no-ptext">Repair the open circuit of harness between TCM and transmission harness connector, and poor contact of connector.</p>
+</div>
+</td>
+</tr>
+<tr valign="top" class="testblock-content">
+<td>
+<div class="test">
+<p class="title-testblock"><a name="S044823e34t18"></a><span class="testnum">19.</span>CHECK HARNESS CONNECTOR BETWEEN TRANSMISSION AND TRANSMISSION GROUND.</p>
+<p class="testblock-ptext">Measure the resistance of the harness between transmission and transmission ground.</p>
+<div class="specblock">
+<p class="specblock-ptext">Connector &amp; terminal</p>
+<div class="specpara">
+<p class="spectext1-normal">(T4) No. 19 &mdash; Transmission ground:</p>
+</div>
+<div class="specpara">
+<p class="spectext1-normal">(T4) No. 20 &mdash; Transmission ground:</p>
+</div>
+</div>
+</div>
+</td>
+<td>
+<div class="ques">
+<p class="question">Is the resistance less than 1 &#8486;?</p>
+</div>
+</td>
+<td>
+<div class="res">
+<p class="yes-ptext"><a href="Javascript:go('S044823e34t19');" title="AUTOMATIC TRANSMISSION (DIAGNOSTICS)(4AT)(D) > Diagnostic Procedure for Subaru Select Monitor Communication > COMMUNICATION FOR INITIALIZING IMPOSSIBLE"><img class="xreficon" src="../image/btn_link.gif" border="0" align="absmiddle"></a></p>
+</div>
+</td>
+<td>
+<div class="act">
+<p class="no-ptext">Repair the open circuit of the harness between transmission and transmission ground.</p>
+</div>
+</td>
+</tr>
+<tr valign="top" class="testblock-content">
+<td>
+<div class="test">
+<p class="title-testblock"><a name="S044823e34t19"></a><span class="testnum">20.</span>CHECK POOR CONTACT OF CONNECTORS.</p>
+</div>
+</td>
+<td>
+<div class="ques">
+<p class="question">Is there poor contact in TCM power supply, ground and data link connector?</p>
+</div>
+</td>
+<td>
+<div class="res">
+<p class="yes-ptext">Repair the connector.</p>
+</div>
+</td>
+<td>
+<div class="act">
+<p class="no-ptext">Replace the TCM. <a href="Javascript:go('S502225');" title="AUTOMATIC TRANSMISSION(4AT) > Transmission Control Module (TCM)"><img class="xreficon" src="../image/btn_link.gif" border="0" align="absmiddle"></a></p>
+</div>
+</td>
+</tr>
+</tbody></table></div>
+</div>
+</body>
+</html>

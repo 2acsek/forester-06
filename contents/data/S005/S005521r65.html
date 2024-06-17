@@ -1,0 +1,159 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>VEHICLE DYNAMICS CONTROL (VDC) (DIAGNOSTICS) &gt; Diagnostic Procedure with Diagnostic Trouble Code (DTC) &gt; DTC 57 ECM COMMUNICATION CIRCUIT</title>
+<link rel="stylesheet" href="../subaru.css" type="text/css">
+<script language="JavaScript" type="text/JavaScript" src="../honbun.js"></script>
+</head>
+<body class="si-body">
+<p class="toptitle">VEHICLE DYNAMICS CONTROL (VDC) (DIAGNOSTICS) &gt; Diagnostic Procedure with Diagnostic Trouble Code (DTC)</p>
+<p class="title-si"><a name="S005521r65"></a>DTC 57 ECM COMMUNICATION CIRCUIT</p>
+<div class="si-body">
+<p class="si-ptext"><span class="bold">DTC DETECTING CONDITION:</span></p>
+<p class="si-ptext-para">Communication malfunction between engine control module</p>
+<p class="si-ptext-para"><span class="bold">TROUBLE SYMPTOM:</span></p>
+<div class="list1">
+<p class="list1-ptext"><span class="list1-num">&bull;  </span>VDC does not operate.</p>
+<p class="list1-ptext"><span class="list1-num">&bull;  </span>ABS does not operate.</p>
+</div>
+<p class="si-ptext-para"><span class="bold">WIRING DIAGRAM:</span></p>
+<div class="list1">
+<p class="list1-ptext"><span class="list1-num">&bull;  </span>LHD model</p>
+<div class="pdf-graphic-block">
+<p class="pdficon"><a href="javascript:openPDF('vdc00438e.pdf')"><img src="../../image/pdficon.gif" border="0"></a></p>
+<p class="graphic-wiring"><img src="../grph_ent/vdc00438e.png">
+</p></div>
+<p class="list1-ptext"><span class="list1-num">&bull;  </span>RHD model</p>
+<div class="pdf-graphic-block">
+<p class="pdficon"><a href="javascript:openPDF('vdc00439e.pdf')"><img src="../../image/pdficon.gif" border="0"></a></p>
+<p class="graphic-wiring"><img src="../grph_ent/vdc00439e.png">
+</p></div>
+</div>
+<div class="diagtest">
+<table frame="all" border=1 cellspacing=0 cellpadding=2>
+<thead>
+<tr class="testblock-header"><td>STEP</td><td>CHECK</td><td>YES</td><td>NO</td></tr>
+</thead>
+<tbody>
+<tr valign="top" class="testblock-content">
+<td>
+<div class="test">
+<p class="title-testblock"><a name="S005521r65t01"></a><span class="testnum">1.</span>CHECK HARNESS RESISTANCE.</p>
+<div class="test1">
+<p class="t1-ptext"><span class="t1-num">1) </span>Turn the ignition switch to OFF.</p>
+</div>
+<div class="test1">
+<p class="t1-ptext"><span class="t1-num">2) </span>Disconnect the connectors from the ECM.</p>
+</div>
+<div class="test1">
+<p class="t1-ptext"><span class="t1-num">3) </span>Measure the resistance between ECM connector terminals.</p>
+<div class="specblock">
+<p class="specblock-ptext">Connector &amp; terminal</p>
+<div class="specpara">
+<p class="spectext1-normal">(B136) No. 35 &mdash; No. 27:</p>
+</div>
+</div>
+</div>
+</div>
+</td>
+<td>
+<div class="ques">
+<p class="question">Is the resistance 60&plusmn;3 &#8486;?</p>
+</div>
+</td>
+<td>
+<div class="res">
+<p class="yes-ptext"><a href="Javascript:go('S005521r65t02');" title="VEHICLE DYNAMICS CONTROL (VDC) (DIAGNOSTICS) > Diagnostic Procedure with Diagnostic Trouble Code (DTC) > DTC 57 ECM COMMUNICATION CIRCUIT"><img class="xreficon" src="../image/btn_link.gif" border="0" align="absmiddle"></a></p>
+</div>
+</td>
+<td>
+<div class="act">
+<p class="no-ptext">Repair the harness between ECM and VDCCM.</p>
+</div>
+</td>
+</tr>
+<tr valign="top" class="testblock-content">
+<td>
+<div class="test">
+<p class="title-testblock"><a name="S005521r65t02"></a><span class="testnum">2.</span>CHECK POOR CONTACT OF CONNECTOR.</p>
+</div>
+</td>
+<td>
+<div class="ques">
+<p class="question">Is there poor contact in ECM connector?</p>
+</div>
+</td>
+<td>
+<div class="res">
+<p class="yes-ptext">Repair the connector.</p>
+</div>
+</td>
+<td>
+<div class="act">
+<p class="no-ptext"><a href="Javascript:go('S005521r65t03');" title="VEHICLE DYNAMICS CONTROL (VDC) (DIAGNOSTICS) > Diagnostic Procedure with Diagnostic Trouble Code (DTC) > DTC 57 ECM COMMUNICATION CIRCUIT"><img class="xreficon" src="../image/btn_link.gif" border="0" align="absmiddle"></a></p>
+</div>
+</td>
+</tr>
+<tr valign="top" class="testblock-content">
+<td>
+<div class="test">
+<p class="title-testblock"><a name="S005521r65t03"></a><span class="testnum">3.</span>CHECK ECM.</p>
+<div class="test1">
+<p class="t1-ptext"><span class="t1-num">1) </span>Turn the ignition switch to OFF.</p>
+</div>
+<div class="test1">
+<p class="t1-ptext"><span class="t1-num">2) </span>Connect all connectors.</p>
+</div>
+<div class="test1">
+<p class="t1-ptext"><span class="t1-num">3) </span>Erase the memory.</p>
+</div>
+<div class="test1">
+<p class="t1-ptext"><span class="t1-num">4) </span>Perform the Inspection Mode.</p>
+</div>
+<div class="test1">
+<p class="t1-ptext"><span class="t1-num">5) </span>Read the DTC.</p>
+</div>
+</div>
+</td>
+<td>
+<div class="ques">
+<p class="question">Is the same DTC displayed again?</p>
+</div>
+</td>
+<td>
+<div class="res">
+<p class="yes-ptext">Replace the ECM.</p>
+</div>
+</td>
+<td>
+<div class="act">
+<p class="no-ptext"><a href="Javascript:go('S005521r65t04');" title="VEHICLE DYNAMICS CONTROL (VDC) (DIAGNOSTICS) > Diagnostic Procedure with Diagnostic Trouble Code (DTC) > DTC 57 ECM COMMUNICATION CIRCUIT"><img class="xreficon" src="../image/btn_link.gif" border="0" align="absmiddle"></a></p>
+</div>
+</td>
+</tr>
+<tr valign="top" class="testblock-content">
+<td>
+<div class="test">
+<p class="title-testblock"><a name="S005521r65t04"></a><span class="testnum">4.</span>CHECK ANY OTHER DTC ON DISPLAY.</p>
+</div>
+</td>
+<td>
+<div class="ques">
+<p class="question">Are other DTCs displayed?</p>
+</div>
+</td>
+<td>
+<div class="res">
+<p class="yes-ptext">Go to the diagnosis corresponding to the DTC.</p>
+</div>
+</td>
+<td>
+<div class="act">
+<p class="no-ptext">Temporary poor contact occurs.</p>
+</div>
+</td>
+</tr>
+</tbody></table></div>
+</div>
+</body>
+</html>

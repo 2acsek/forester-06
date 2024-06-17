@@ -1,0 +1,377 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>ENGINE (DIAGNOSTICS)(H4DO) &gt; Diagnostic Procedure with Diagnostic Trouble Code (DTC) &gt; DTC P0463 FUEL LEVEL SENSOR &ldquo;A&rdquo; CIRCUIT HIGH</title>
+<link rel="stylesheet" href="../subaru.css" type="text/css">
+<script language="JavaScript" type="text/JavaScript" src="../honbun.js"></script>
+</head>
+<body class="si-body">
+<p class="toptitle">ENGINE (DIAGNOSTICS)(H4DO) &gt; Diagnostic Procedure with Diagnostic Trouble Code (DTC)</p>
+<p class="title-si"><a name="S068521b56"></a>DTC P0463 FUEL LEVEL SENSOR &ldquo;A&rdquo; CIRCUIT HIGH</p>
+<div class="si-body">
+<p class="si-ptext"><span class="bold">DTC DETECTING CONDITION:</span></p>
+<p class="si-ptext-para">Detected when two consecutive driving cycles with fault occur.</p>
+<p class="caution-label">CAUTION:</p>
+<div class="caution">
+<p class="caution-ptext">After repairing or replacing the defective part, perform the Clear Memory Mode <a href="Javascript:go('S068513a16');" title="ENGINE (DIAGNOSTICS)(H4DO) > Clear Memory Mode > OPERATION"><img class="xreficon" src="../image/btn_link.gif" border="0" align="absmiddle"></a> and Inspection Mode <a href="Javascript:go('S068510e45');" title="ENGINE (DIAGNOSTICS)(H4DO) > Inspection Mode > PROCEDURE"><img class="xreficon" src="../image/btn_link.gif" border="0" align="absmiddle"></a>.</p>
+</div>
+<p class="si-ptext-para"><span class="bold">WIRING DIAGRAM:</span></p>
+<div class="pdf-graphic-block">
+<p class="pdficon"><a href="javascript:openPDF('en-04854e.pdf')"><img src="../../image/pdficon.gif" border="0"></a></p>
+<p class="graphic-wiring"><img src="../grph_ent/en-04854e.png">
+</p></div>
+<div class="diagtest">
+<table frame="all" border=1 cellspacing=0 cellpadding=2>
+<thead>
+<tr class="testblock-header"><td>STEP</td><td>CHECK</td><td>YES</td><td>NO</td></tr>
+</thead>
+<tbody>
+<tr valign="top" class="testblock-content">
+<td>
+<div class="test">
+<p class="title-testblock"><a name="S068521b56t01"></a><span class="testnum">1.</span>CHECK SPEEDOMETER AND TACHOMETER OPERATION IN COMBINATION METER.</p>
+</div>
+</td>
+<td>
+<div class="ques">
+<p class="question">Does the speedometer and tachometer operate normally?</p>
+</div>
+</td>
+<td>
+<div class="res">
+<p class="yes-ptext"><a href="Javascript:go('S068521b56t02');" title="ENGINE (DIAGNOSTICS)(H4DO) > Diagnostic Procedure with Diagnostic Trouble Code (DTC) > DTC P0463 FUEL LEVEL SENSOR &ldquo;A&rdquo; CIRCUIT HIGH"><img class="xreficon" src="../image/btn_link.gif" border="0" align="absmiddle"></a></p>
+</div>
+</td>
+<td>
+<div class="act">
+<p class="no-ptext">Repair or replace the combination meter. <a href="Javascript:go('S907607');" title="INSTRUMENTATION/DRIVER INFO > Combination Meter System"><img class="xreficon" src="../image/btn_link.gif" border="0" align="absmiddle"></a></p>
+</div>
+</td>
+</tr>
+<tr valign="top" class="testblock-content">
+<td>
+<div class="test">
+<p class="title-testblock"><a name="S068521b56t02"></a><span class="testnum">2.</span>CHECK INPUT SIGNAL OF ECM.</p>
+<div class="test1">
+<p class="t1-ptext"><span class="t1-num">1) </span>Turn the ignition switch to ON. (engine OFF)</p>
+</div>
+<div class="test1">
+<p class="t1-ptext"><span class="t1-num">2) </span>Measure the voltage between ECM connector and chassis ground.</p>
+<div class="specblock">
+<p class="specblock-ptext">Connector &amp; terminal</p>
+<div class="specpara">
+<p class="spectext1-normal">(B136) No. 19 (+) &mdash; Chassis ground (&minus;):</p>
+</div>
+</div>
+</div>
+</div>
+</td>
+<td>
+<div class="ques">
+<p class="question">Is the voltage 4.75 V or more?</p>
+</div>
+</td>
+<td>
+<div class="res">
+<p class="yes-ptext"><a href="Javascript:go('S068521b56t03');" title="ENGINE (DIAGNOSTICS)(H4DO) > Diagnostic Procedure with Diagnostic Trouble Code (DTC) > DTC P0463 FUEL LEVEL SENSOR &ldquo;A&rdquo; CIRCUIT HIGH"><img class="xreficon" src="../image/btn_link.gif" border="0" align="absmiddle"></a></p>
+</div>
+</td>
+<td>
+<div class="act">
+<div class="list1">
+<p class="list1-ptext"><span class="list1-num"></span>Even if the malfunction indicator light illuminates, the circuit has returned to a normal condition at this time. Temporary poor contact of connector may be the cause.</p>
+<p class="note-label">NOTE:</p>
+<div class="note">
+<p class="note-ptext">In this case, repair the following item:</p>
+<div class="list2">
+<p class="list2-ptext"><span class="list2-num">&bull;  </span>Poor contact in fuel pump connector</p>
+<p class="list2-ptext"><span class="list2-num">&bull;  </span>Poor contact of coupling connector</p>
+</div>
+</div>
+</div>
+</div>
+</td>
+</tr>
+<tr valign="top" class="testblock-content">
+<td>
+<div class="test">
+<p class="title-testblock"><a name="S068521b56t03"></a><span class="testnum">3.</span>CHECK INPUT VOLTAGE OF ECM.</p>
+<div class="test1">
+<p class="t1-ptext"><span class="t1-num">1) </span>Turn the ignition switch to OFF.</p>
+</div>
+<div class="test1">
+<p class="t1-ptext"><span class="t1-num">2) </span>Disconnect the connector from combination meter (i11) and ECM.</p>
+</div>
+<div class="test1">
+<p class="t1-ptext"><span class="t1-num">3) </span>Turn the ignition switch to ON.</p>
+</div>
+<div class="test1">
+<p class="t1-ptext"><span class="t1-num">4) </span>Measure the voltage of harness between ECM and chassis ground.</p>
+<div class="specblock">
+<p class="specblock-ptext">Connector &amp; terminal</p>
+<div class="specpara">
+<p class="spectext1-normal">(B136) No. 19 (+) &mdash; Chassis ground (&minus;):</p>
+</div>
+</div>
+</div>
+</div>
+</td>
+<td>
+<div class="ques">
+<p class="question">Is the voltage 4.75 V or more?</p>
+</div>
+</td>
+<td>
+<div class="res">
+<p class="yes-ptext"><a href="Javascript:go('S068521b56t04');" title="ENGINE (DIAGNOSTICS)(H4DO) > Diagnostic Procedure with Diagnostic Trouble Code (DTC) > DTC P0463 FUEL LEVEL SENSOR &ldquo;A&rdquo; CIRCUIT HIGH"><img class="xreficon" src="../image/btn_link.gif" border="0" align="absmiddle"></a></p>
+</div>
+</td>
+<td>
+<div class="act">
+<p class="no-ptext">Repair the short to power supply between ECM and combination meter connector.</p>
+</div>
+</td>
+</tr>
+<tr valign="top" class="testblock-content">
+<td>
+<div class="test">
+<p class="title-testblock"><a name="S068521b56t04"></a><span class="testnum">4.</span>CHECK HARNESS BETWEEN ECM AND FUEL TANK CORD.</p>
+<div class="test1">
+<p class="t1-ptext"><span class="t1-num">1) </span>Turn the ignition switch to OFF.</p>
+</div>
+<div class="test1">
+<p class="t1-ptext"><span class="t1-num">2) </span>Disconnect the connectors from the fuel tank cord (R57) and rear wiring harness (R15).</p>
+</div>
+<div class="test1">
+<p class="t1-ptext"><span class="t1-num">3) </span>Measure the resistance between ECM and fuel tank cord.</p>
+<div class="specblock">
+<p class="specblock-ptext">Connector &amp; terminal</p>
+<div class="specpara">
+<p class="spectext1-normal">(B136) No. 19 &mdash; (R15) No. 2:</p>
+</div>
+</div>
+</div>
+</div>
+</td>
+<td>
+<div class="ques">
+<p class="question">Is the resistance less than 5 &#8486;?</p>
+</div>
+</td>
+<td>
+<div class="res">
+<p class="yes-ptext"><a href="Javascript:go('S068521b56t05');" title="ENGINE (DIAGNOSTICS)(H4DO) > Diagnostic Procedure with Diagnostic Trouble Code (DTC) > DTC P0463 FUEL LEVEL SENSOR &ldquo;A&rdquo; CIRCUIT HIGH"><img class="xreficon" src="../image/btn_link.gif" border="0" align="absmiddle"></a></p>
+</div>
+</td>
+<td>
+<div class="act">
+<p class="no-ptext">Repair the open circuit between ECM and fuel tank cord.</p>
+</div>
+</td>
+</tr>
+<tr valign="top" class="testblock-content">
+<td>
+<div class="test">
+<p class="title-testblock"><a name="S068521b56t05"></a><span class="testnum">5.</span>CHECK HARNESS BETWEEN FUEL TANK CORD AND CHASSIS GROUND.</p>
+<p class="testblock-ptext">Measure the resistance between fuel tank cord and chassis ground.</p>
+<div class="specblock">
+<p class="specblock-ptext">Connector &amp; terminal</p>
+<div class="specpara">
+<p class="spectext1-normal">(R15) No. 3 &mdash; Chassis ground:</p>
+</div>
+</div>
+</div>
+</td>
+<td>
+<div class="ques">
+<p class="question">Is the resistance less than 5 &#8486;?</p>
+</div>
+</td>
+<td>
+<div class="res">
+<p class="yes-ptext"><a href="Javascript:go('S068521b56t06');" title="ENGINE (DIAGNOSTICS)(H4DO) > Diagnostic Procedure with Diagnostic Trouble Code (DTC) > DTC P0463 FUEL LEVEL SENSOR &ldquo;A&rdquo; CIRCUIT HIGH"><img class="xreficon" src="../image/btn_link.gif" border="0" align="absmiddle"></a></p>
+</div>
+</td>
+<td>
+<div class="act">
+<div class="list1">
+<p class="list1-ptext"><span class="list1-num"></span>Repair the open circuit between fuel tank cord and chassis ground.</p>
+<p class="note-label">NOTE:</p>
+<div class="note">
+<p class="note-ptext">In this case, repair the following item:</p>
+<p class="note-ptext-para">Poor contact of coupling connector</p>
+</div>
+</div>
+</div>
+</td>
+</tr>
+<tr valign="top" class="testblock-content">
+<td>
+<div class="test">
+<p class="title-testblock"><a name="S068521b56t06"></a><span class="testnum">6.</span>CHECK FUEL TANK CORD.</p>
+<div class="test1">
+<p class="t1-ptext"><span class="t1-num">1) </span>Disconnect the connector from the fuel level sensor.</p>
+</div>
+<div class="test1">
+<p class="t1-ptext"><span class="t1-num">2) </span>Measure the resistance between fuel level sensor and coupling connector.</p>
+<div class="specblock">
+<p class="specblock-ptext">Connector &amp; terminal</p>
+<div class="specpara">
+<p class="spectext1-normal">(R57) No. 3 &mdash; (R58) No. 5:</p>
+</div>
+</div>
+</div>
+</div>
+</td>
+<td>
+<div class="ques">
+<p class="question">Is the resistance less than 10 &#8486;?</p>
+</div>
+</td>
+<td>
+<div class="res">
+<p class="yes-ptext"><a href="Javascript:go('S068521b56t07');" title="ENGINE (DIAGNOSTICS)(H4DO) > Diagnostic Procedure with Diagnostic Trouble Code (DTC) > DTC P0463 FUEL LEVEL SENSOR &ldquo;A&rdquo; CIRCUIT HIGH"><img class="xreficon" src="../image/btn_link.gif" border="0" align="absmiddle"></a></p>
+</div>
+</td>
+<td>
+<div class="act">
+<p class="no-ptext">Repair the open circuit between coupling connector and fuel level sensor.</p>
+</div>
+</td>
+</tr>
+<tr valign="top" class="testblock-content">
+<td>
+<div class="test">
+<p class="title-testblock"><a name="S068521b56t07"></a><span class="testnum">7.</span>CHECK FUEL TANK CORD.</p>
+<div class="test1">
+<p class="t1-ptext"><span class="t1-num">1) </span>Disconnect the connector from the fuel sub level sensor.</p>
+</div>
+<div class="test1">
+<p class="t1-ptext"><span class="t1-num">2) </span>Measure the resistance between fuel level sensor and fuel sub level sensor.</p>
+<div class="specblock">
+<p class="specblock-ptext">Connector &amp; terminal</p>
+<div class="specpara">
+<p class="spectext1-normal">(R58) No. 3 &mdash; (R59) No. 2:</p>
+</div>
+</div>
+</div>
+</div>
+</td>
+<td>
+<div class="ques">
+<p class="question">Is the resistance less than 10 &#8486;?</p>
+</div>
+</td>
+<td>
+<div class="res">
+<p class="yes-ptext"><a href="Javascript:go('S068521b56t08');" title="ENGINE (DIAGNOSTICS)(H4DO) > Diagnostic Procedure with Diagnostic Trouble Code (DTC) > DTC P0463 FUEL LEVEL SENSOR &ldquo;A&rdquo; CIRCUIT HIGH"><img class="xreficon" src="../image/btn_link.gif" border="0" align="absmiddle"></a></p>
+</div>
+</td>
+<td>
+<div class="act">
+<p class="no-ptext">Repair the open circuit between fuel level sensor and fuel sub level sensor.</p>
+</div>
+</td>
+</tr>
+<tr valign="top" class="testblock-content">
+<td>
+<div class="test">
+<p class="title-testblock"><a name="S068521b56t08"></a><span class="testnum">8.</span>CHECK FUEL TANK CORD.</p>
+<p class="testblock-ptext">Measure the resistance between the fuel sub level sensor and coupling connector.</p>
+<div class="specblock">
+<p class="specblock-ptext">Connector &amp; terminal</p>
+<div class="specpara">
+<p class="spectext1-normal">(R57) No. 2 &mdash; (R59) No. 1:</p>
+</div>
+</div>
+</div>
+</td>
+<td>
+<div class="ques">
+<p class="question">Is the resistance less than 10 &#8486;?</p>
+</div>
+</td>
+<td>
+<div class="res">
+<p class="yes-ptext"><a href="Javascript:go('S068521b56t09');" title="ENGINE (DIAGNOSTICS)(H4DO) > Diagnostic Procedure with Diagnostic Trouble Code (DTC) > DTC P0463 FUEL LEVEL SENSOR &ldquo;A&rdquo; CIRCUIT HIGH"><img class="xreficon" src="../image/btn_link.gif" border="0" align="absmiddle"></a></p>
+</div>
+</td>
+<td>
+<div class="act">
+<p class="no-ptext">Repair the open circuit between the coupling connector and fuel sub level sensor.</p>
+</div>
+</td>
+</tr>
+<tr valign="top" class="testblock-content">
+<td>
+<div class="test">
+<p class="title-testblock"><a name="S068521b56t09"></a><span class="testnum">9.</span>CHECK FUEL LEVEL SENSOR.</p>
+<div class="test1">
+<p class="t1-ptext"><span class="t1-num">1) </span>Remove the fuel pump assembly.</p>
+<p class="t1-ptext-para"><span class="t1-num"></span><a href="Javascript:go('S165025');" title="FUEL INJECTION (FUEL SYSTEMS)(H4DO) > Fuel Pump"><img class="xreficon" src="../image/btn_link.gif" border="0" align="absmiddle"></a></p>
+</div>
+<div class="test1">
+<p class="t1-ptext"><span class="t1-num">2) </span>While moving the fuel level sensor float up and down, measure resistance between fuel level sensor terminals.</p>
+<div class="specblock">
+<p class="specblock-ptext">Terminals</p>
+<div class="specpara">
+<p class="spectext1-normal">No. 2 &mdash; No. 3:</p>
+</div>
+</div>
+</div>
+</div>
+</td>
+<td>
+<div class="ques">
+<p class="question">Is the resistance 53 &#8486; or more?</p>
+</div>
+</td>
+<td>
+<div class="res">
+<p class="yes-ptext">Replace the fuel level sensor. <a href="Javascript:go('S165026');" title="FUEL INJECTION (FUEL SYSTEMS)(H4DO) > Fuel Level Sensor"><img class="xreficon" src="../image/btn_link.gif" border="0" align="absmiddle"></a></p>
+</div>
+</td>
+<td>
+<div class="act">
+<p class="no-ptext"><a href="Javascript:go('S068521b56t10');" title="ENGINE (DIAGNOSTICS)(H4DO) > Diagnostic Procedure with Diagnostic Trouble Code (DTC) > DTC P0463 FUEL LEVEL SENSOR &ldquo;A&rdquo; CIRCUIT HIGH"><img class="xreficon" src="../image/btn_link.gif" border="0" align="absmiddle"></a></p>
+</div>
+</td>
+</tr>
+<tr valign="top" class="testblock-content">
+<td>
+<div class="test">
+<p class="title-testblock"><a name="S068521b56t10"></a><span class="testnum">10.</span>CHECK FUEL SUB LEVEL SENSOR.</p>
+<div class="test1">
+<p class="t1-ptext"><span class="t1-num">1) </span>Remove the fuel sub level sensor. <a href="Javascript:go('S165023');" title="FUEL INJECTION (FUEL SYSTEMS)(H4DO) > Fuel Sub Level Sensor"><img class="xreficon" src="../image/btn_link.gif" border="0" align="absmiddle"></a></p>
+</div>
+<div class="test1">
+<p class="t1-ptext"><span class="t1-num">2) </span>While moving the fuel sub level sensor float up and down, measure resistance between fuel sub level sensor terminals.</p>
+<div class="specblock">
+<p class="specblock-ptext">Terminals</p>
+<div class="specpara">
+<p class="spectext1-normal">No. 1 &mdash; No. 2:</p>
+</div>
+</div>
+</div>
+</div>
+</td>
+<td>
+<div class="ques">
+<p class="question">Is the resistance 45 &#8486; or more?</p>
+</div>
+</td>
+<td>
+<div class="res">
+<p class="yes-ptext">Replace the fuel sub level sensor. <a href="Javascript:go('S165023');" title="FUEL INJECTION (FUEL SYSTEMS)(H4DO) > Fuel Sub Level Sensor"><img class="xreficon" src="../image/btn_link.gif" border="0" align="absmiddle"></a></p>
+</div>
+</td>
+<td>
+<div class="act">
+<p class="no-ptext">Replace the combination meter. <a href="Javascript:go('S907488');" title="INSTRUMENTATION/DRIVER INFO > Combination Meter"><img class="xreficon" src="../image/btn_link.gif" border="0" align="absmiddle"></a></p>
+</div>
+</td>
+</tr>
+</tbody></table></div>
+</div>
+</body>
+</html>
